@@ -736,7 +736,7 @@ end
 	AtlasLoot_TableNames["EDVerdantKeeper"] = { "Verdant Keeper", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["EDWatcherNishera"] = { "Watcher Nishera", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["EDGuardianoftheDream1"] = { "Guardian of the Dream", "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["EDGuardianoftheDream2"] = { "Guardian of the Dream", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDGuardianoftheDream2"] = { "Guardian of the Dream Page 2", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["EDTrash"] = { "Trash Mobs (Emerald Dream)", "AtlasLootOriginalWoW" };
   -- Gnomeregan
 	AtlasLoot_TableNames["Gnomeregan1"] = { BabbleZone["Gnomeregan"], "AtlasLootOriginalWoW" };

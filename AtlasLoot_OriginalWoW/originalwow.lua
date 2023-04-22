@@ -3014,16 +3014,17 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 25, 19363, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "7.00%"};
 		{ 26, 19360, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "6.98%"};
 		{ 27, 19356, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "7.27%"};
+		Prev="EDWatcherNishera";
 		Next="EDGuardianoftheDream2";
 	};
 
-	Atlasloot_Data["EDGuardianoftheDream2"] = {
+	AtlasLoot_Data["EDGuardianoftheDream2"] = {
 		{ 1, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%"};
 		{ 2, 19383, "", "=q4=Master Dragonslayer's Medallion", "=q1=#m4#: =ds=#s2#"};
 		{ 3, 19384, "", "=q4=Master Dragonslayer's Ring", "=q1=#m4#: =ds=#s13#"};
 		{ 4, 19366, "", "=q4=Master Dragonslayer's Orb", "=q1=#m4#: =ds=#s15#"};
-		{ 16, 57908, "", "=q4=Cache of the Emerald Drake", "=ds=Mount","","100%"};
-		{ 17, 57903, "", "=q4=Crystal of the Emerald Drake", "=ds=Mount","","100%"};
+		{ 16, 57908, "", "=q4=Cache of the Emerald Drake", "=ds=#m2#", "", "100%"};
+		{ 17, 57903, "", "=q4=Crystal of the Emerald Drake", "=ds=#m2#", "", "100%"};
 		Prev = "EDGuardianoftheDream1";
 	};
 
