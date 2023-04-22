@@ -2871,12 +2871,174 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--- Emerald Dream ---
 		---------------------
 
-	AtlasLoot_Data["EDADragonProbably"] = {
-		{ 1, 23015, "", "Rat Cage", "","","100%"};
+	AtlasLoot_Data["EDCrablante"] = {
+		{ 1, 16918, "", "=q4=Netherwind Bindings", "=q1=#m1# =ds=#c3#", "", "20.41%"};
+		{ 2, 16926, "", "=q4=Bindings of Transcendence", "=q1=#m1# =ds=#c5#", "", "20.37%"};
+		{ 3, 16934, "", "=q4=Nemesis Bracers", "=q1=#m1# =ds=#c8#", "", "18.11%"};
+		{ 4, 16911, "", "=q4=Bloodfang Bracers", "=q1=#m1# =ds=#c6#", "", "20.69%"};
+		{ 5, 16904, "", "=q4=Stormrage Bracers", "=q1=#m1# =ds=#c1#", "", "17.38%"};
+		{ 6, 16935, "", "=q4=Dragonstalker's Bracers", "=q1=#m1# =ds=#c2#", "", "19.13%"};
+		{ 7, 16943, "", "=q4=Bracers of Ten Storms", "=q1=#m1# =ds=#c7#", "", "7.54%"};
+		{ 8, 16959, "", "=q4=Bracelets of Wrath", "=q1=#m1# =ds=#c9#", "", "20.29%"};
+		{ 9, 16951, "", "=q4=Judgement Bindings", "=q1=#m1# =ds=#c4#", "", "13.61%"};
+		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+		{ 16, 19337, "", "=q4=The Black Book", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.37%"};
+		{ 17, 19336, "", "=q4=Arcane Infused Gem", "=ds=#s14#, =q1=#m1# =ds=#c2#", "", "17.33%"};
+		{ 19, 19370, "", "=q4=Mantle of the Blackwing Cabal", "=ds=#s3#, #a1#", "", "18.57%"};
+		{ 20, 19369, "", "=q4=Gloves of Rapid Evolution", "=ds=#s9#, #a1#", "", "17.52%"};
+		{ 21, 19334, "", "=q4=The Untamed Blade", "=ds=#h2#, #w10#", "", "9.76%"};
+		{ 22, 19335, "", "=q4=Spineshatter", "=ds=#h1#, #w6#", "", "10.44%"};
+		Next = "EDLeymor";
 	};
+
+	AtlasLoot_Data["EDLeymor"] = {
+		{ 1, 16917, "", "=q4=Netherwind Mantle", "=q1=#m1# =ds=#c3#", "", "18.09%"};
+		{ 2, 16924, "", "=q4=Pauldrons of Transcendence", "=q1=#m1# =ds=#c5#", "", "17.83%"};
+		{ 3, 16932, "", "=q4=Nemesis Spaulders", "=q1=#m1# =ds=#c8#", "", "16.26%"};
+		{ 4, 16937, "", "=q4=Dragonstalker's Spaulders", "=q1=#m1# =ds=#c2#", "", "16.20%"};
+		{ 5, 16902, "", "=q4=Stormrage Pauldrons", "=q1=#m1# =ds=#c1#", "", "14.63%"};
+		{ 6, 16832, "", "=q4=Bloodfang Spaulders", "=q1=#m1# =ds=#c6#", "", "17.03%"};
+		{ 7, 16945, "", "=q4=Epaulets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "6.73%"};
+		{ 8, 16953, "", "=q4=Judgement Spaulders", "=q1=#m1# =ds=#c4#", "", "10.97%"};
+		{ 9, 16961, "", "=q4=Pauldrons of Wrath", "=q1=#m1# =ds=#c9#", "", "16.83%"};
+		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
+		{ 16, 19386, "", "=q4=Elementium Threaded Cloak", "=ds=#s4#", "", "18.93%"};
+		{ 17, 19388, "", "=q4=Angelista's Grasp", "=ds=#s10#, #a1#", "", "16.86%"};
+		{ 18, 19385, "", "=q4=Empowered Leggings", "=ds=#s11#, #a1#", "", "16.27%"};
+		{ 19, 19391, "", "=q4=Shimmering Geta", "=ds=#s12#, #a1#", "", "17.46%"};
+		{ 20, 19389, "", "=q4=Taut Dragonhide Shoulderpads", "=ds=#s3#, #a2#", "", "16.89%"};
+		{ 21, 19390, "", "=q4=Taut Dragonhide Gloves", "=ds=#s9#, #a2#", "", "18.84%"};
+		{ 22, 19393, "", "=q4=Primalist's Linked Waistguard", "=ds=#s10#, #a3#", "", "6.17%"};
+		{ 23, 19392, "", "=q4=Girdle of the Fallen Crusader", "=ds=#s10#, #a4#", "", "10.97%"};
+		{ 24, 19387, "", "=q4=Chromatic Boots", "=ds=#s12#, #a4#", "", "16.46%"};
+		{ 26, 19347, "", "=q4=Claw of Chromaggus", "=ds=#h3#, #w4#", "", "8.39%"};
+		{ 27, 19352, "", "=q4=Chromatically Tempered Sword", "=ds=#h1#, #w10#", "", "9.05%"};
+		{ 28, 19349, "", "=q4=Elementium Reinforced Bulwark", "=ds=#w8#", "", "8.04%"};
+		{ 29, 19361, "", "=q4=Ashjre'thul, Crossbow of Smiting", "=ds=#w3#", "", "7.51%"};
+		Next="EDOvergrownAncient";
+		Prev="EDCrablante";
+	};
+
+	AtlasLoot_Data["EDOvergrownAncient"] = {
+		{ 1, 16912, "", "=q4=Netherwind Boots", "=q1=#m1# =ds=#c3#", "", "17.17%"};
+		{ 2, 16919, "", "=q4=Boots of Transcendence", "=q1=#m1# =ds=#c5#", "", "14.61%"};
+		{ 3, 16927, "", "=q4=Nemesis Boots", "=q1=#m1# =ds=#c8#", "", "15.32%"};
+		{ 4, 16898, "", "=q4=Stormrage Boots", "=q1=#m1# =ds=#c1#", "", "13.79%"};
+		{ 5, 16906, "", "=q4=Bloodfang Boots", "=q1=#m1# =ds=#c6#", "", "15.66%"};
+		{ 6, 16941, "", "=q4=Dragonstalker's Greaves", "=q1=#m1# =ds=#c2#", "", "17.78%"};
+		{ 7, 16949, "", "=q4=Greaves of Ten Storms", "=q1=#m1# =ds=#c7#", "", "5.57%"};
+		{ 8, 16965, "", "=q4=Sabatons of Wrath", "=q1=#m1# =ds=#c9#", "", "16.84%"};
+		{ 9, 16957, "", "=q4=Judgement Sabatons", "=q1=#m1# =ds=#c4#", "", "11.28%"};
+		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+		{ 13, 20383, "", "=q1=Head of the Broodlord Lashlayer", "=ds=#m3#", "", "100%"};
+		{ 16, 19342, "", "=q4=Venomous Totem", "=ds=#s14#, =q1=#m1# =ds=#c6#", "", "15.06%"};
+		{ 17, 19341, "", "=q4=Lifegiving Gem", "=ds=#s14#, =q1=#m1# =ds=#c9#", "", "14.27%"};
+		{ 19, 19374, "", "=q4=Bracers of Arcane Accuracy", "=ds=#s8#, #a1#", "", "15.03%"};
+		{ 20, 19373, "", "=q4=Black Brood Pauldrons", "=ds=#s3#, #a3#", "", "17.25%"};
+		{ 21, 19351, "", "=q4=Maladath, Runed Blade of the Black Flight", "=ds=#h1#, #w10#", "", "9.62%"};
+		{ 22, 19350, "", "=q4=Heartstriker", "=ds=#w2#", "", "8.45%"};
+		Next="EDVerdantKeeper";
+		Prev="EDLeymor";
+	};
+
+	AtlasLoot_Data["EDVerdantKeeper"] = {
+		{ 1, 16818, "", "=q4=Netherwind Belt", "=q1=#m1# =ds=#c3#", "", "19.94%"};
+		{ 2, 16925, "", "=q4=Belt of Transcendence", "=q1=#m1# =ds=#c5#", "", "18.76%"};
+		{ 3, 16933, "", "=q4=Nemesis Belt", "=q1=#m1# =ds=#c8#", "", "18.42%"};
+		{ 4, 16936, "", "=q4=Dragonstalker's Belt", "=q1=#m1# =ds=#c2#", "", "20.17%"};
+		{ 5, 16903, "", "=q4=Stormrage Belt", "=q1=#m1# =ds=#c1#", "", "16.90%"};
+		{ 6, 16910, "", "=q4=Bloodfang Belt", "=q1=#m1# =ds=#c6#", "", "19.69%"};
+		{ 7, 16944, "", "=q4=Belt of Ten Storms", "=q1=#m1# =ds=#c7#", "", "6.93%"};
+		{ 8, 16960, "", "=q4=Waistband of Wrath", "=q1=#m1# =ds=#c9#", "", "20.03%"};
+		{ 9, 16952, "", "=q4=Judgement Belt", "=q1=#m1# =ds=#c4#", "", "12.23%"};
+		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+		{ 16, 19339, "", "=q4=Mind Quickening Gem", "=ds=#s14#, =q1=#m1# =ds=#c3#", "", "18.96%"};
+		{ 17, 19340, "", "=q4=Rune of Metamorphosis", "=ds=#s14#, =q1=#m1# =ds=#c1#", "", "17.66%"};
+		{ 19, 19372, "", "=q4=Helm of Endless Rage", "=ds=#s1#, #a4#", "", "16.76%"};
+		{ 20, 19371, "", "=q4=Pendant of the Fallen Dragon", "=ds=#s2#", "", "18.56%"};
+		{ 21, 19346, "", "=q4=Dragonfang Blade", "=ds=#h1#, #w4#", "", "9.40%"};
+		{ 22, 19348, "", "=q4=Red Dragonscale Protector", "=ds=#w8#", "", "8.57%"};
+		Next="EDWatcherNishera";
+		Prev="EDOvergrownAncient";
+	};
+
+	AtlasLoot_Data["EDWatcherNishera"] = {
+		{ 1, 16913, "", "=q4=Netherwind Gloves", "=q1=#m1# =ds=#c3#", "", "7.37%"};
+		{ 2, 16920, "", "=q4=Handguards of Transcendence", "=q1=#m1# =ds=#c5#", "", "6.01%"};
+		{ 3, 16928, "", "=q4=Nemesis Gloves", "=q1=#m1# =ds=#c8#", "", "5.28%"};
+		{ 4, 16907, "", "=q4=Bloodfang Gloves", "=q1=#m1# =ds=#c6#", "", "6.84%"};
+		{ 5, 16940, "", "=q4=Dragonstalker's Gauntlets", "=q1=#m1# =ds=#c2#", "", "6.13%"};
+		{ 6, 16899, "", "=q4=Stormrage Handguards", "=q1=#m1# =ds=#c1#", "", "5.34%"};
+		{ 7, 16948, "", "=q4=Gauntlets of Ten Storms", "=q1=#m1# =ds=#c7#", "", "2.13%"};
+		{ 8, 16964, "", "=q4=Gauntlets of Wrath", "=q1=#m1# =ds=#c9#", "", "5.93%"};
+		{ 9, 16956, "", "=q4=Judgement Gauntlets", "=q1=#m1# =ds=#c4#", "", "3.58%"};
+		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
+		{ 13, 19365, "", "=q4=Claw of the Black Drake", "=ds=#h3#, #w13#", "", "15.97%"};
+		{ 14, 19355, "", "=q4=Shadow Wing Focus Staff", "=ds=#w9#", "", "3.70%"};
+		{ 15, 19353, "", "=q4=Drake Talon Cleaver", "=ds=#h2#, #w1#", "", "3.18%"};
+		{ 16, 19343, "", "=q4=Scrolls of Blinding Light", "=ds=#s14#, =q1=#m1# =ds=#c4#", "", "9.17%"};
+		{ 17, 19344, "", "=q4=Natural Alignment Crystal", "=ds=#s14#, =q1=#m1# =ds=#c7#", "", "4.03%"};
+		{ 19, 19398, "", "=q4=Cloak of Firemaw", "=ds=#s4#", "", "15.39%"};
+		{ 20, 19400, "", "=q4=Firemaw's Clutch", "=ds=#s10#, #a1#", "", "14.75%"};
+		{ 21, 19399, "", "=q4=Black Ash Robe", "=ds=#s5#, #a1#", "", "15.00%"};
+		{ 22, 19396, "", "=q4=Taut Dragonhide Belt", "=ds=#s10#, #a2#", "", "5.44%"};
+		{ 23, 19401, "", "=q4=Primalist's Linked Legguards", "=ds=#s11#, #a3#", "", "5.37%"};
+		{ 24, 19394, "", "=q4=Drake Talon Pauldrons", "=ds=#s3#, #a4#", "", "6.76%"};
+		{ 25, 19402, "", "=q4=Legguards of the Fallen Crusader", "=ds=#s11#, #a4#", "", "9.50%"};
+		{ 27, 19397, "", "=q4=Ring of Blackrock", "=ds=#s13#", "", "5.98%"};
+		{ 28, 19395, "", "=q4=Rejuvenating Gem", "=ds=#s14#", "", "5.30%"};
+		Prev="EDVerdantKeeper";
+		Next="EDGuardianoftheDream1";
+	};
+
+	AtlasLoot_Data["EDGuardianoftheDream1"] = {
+		{ 1, 16916, "", "=q4=Netherwind Robes", "=q1=#m1# =ds=#c3#", "", "14.03%"};
+		{ 2, 16931, "", "=q4=Nemesis Robes", "=q1=#m1# =ds=#c8#", "", "12.46%"};
+		{ 3, 16923, "", "=q4=Robes of Transcendence", "=q1=#m1# =ds=#c5#", "", "14.83%"};
+		{ 4, 16905, "", "=q4=Bloodfang Chestpiece", "=q1=#m1# =ds=#c6#", "", "14.21%"};
+		{ 5, 16897, "", "=q4=Stormrage Chestguard", "=q1=#m1# =ds=#c1#", "", "11.89%"};
+		{ 6, 16942, "", "=q4=Dragonstalker's Breastplate", "=q1=#m1# =ds=#c2#", "", "13.30%"};
+		{ 7, 16950, "", "=q4=Breastplate of Ten Storms", "=q1=#m1# =ds=#c7#", "", "5.65%"};
+		{ 8, 16966, "", "=q4=Breastplate of Wrath", "=q1=#m1# =ds=#c9#", "", "15.06%"};
+		{ 9, 16958, "", "=q4=Judgement Breastplate", "=q1=#m1# =ds=#c4#", "", "9.24%"};
+		{ 11, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "100%"};
+		{ 16, 19378, "", "=q4=Cloak of the Brood Lord", "=ds=#s4#", "", "14.95%"};
+		{ 17, 19375, "", "=q4=Mish'undare, Circlet of the Mind Flayer", "=ds=#s1#, #a1#", "", "14.80%"};
+		{ 18, 19381, "", "=q4=Boots of the Shadow Flame", "=ds=#s12#, #a2#", "", "15.70%"};
+		{ 19, 19380, "", "=q4=Therazane's Link", "=ds=#s10#, #a3#", "", "16.82%"};
+		{ 20, 19377, "", "=q4=Prestor's Talisman of Connivery", "=ds=#s2#", "", "14.33%"};
+		{ 21, 19376, "", "=q4=Archimtiros' Ring of Reckoning", "=ds=#s13#", "", "13.93%"};
+		{ 22, 19382, "", "=q4=Pure Elementium Band", "=ds=#s13#", "", "15.15%"};
+		{ 23, 19379, "", "=q4=Neltharion's Tear", "=ds=#s14#", "", "14.26%"};
+		{ 24, 19364, "", "=q4=Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", "", "7.21%"};
+		{ 25, 19363, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "7.00%"};
+		{ 26, 19360, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "6.98%"};
+		{ 27, 19356, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "7.27%"};
+		Next="EDGuardianoftheDream2";
+	};
+
+	Atlasloot_Data["EDGuardianoftheDream2"] = {
+		{ 1, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%"};
+		{ 2, 19383, "", "=q4=Master Dragonslayer's Medallion", "=q1=#m4#: =ds=#s2#"};
+		{ 3, 19384, "", "=q4=Master Dragonslayer's Ring", "=q1=#m4#: =ds=#s13#"};
+		{ 4, 19366, "", "=q4=Master Dragonslayer's Orb", "=q1=#m4#: =ds=#s15#"};
+		{ 16, 57908, "", "=q4=Cache of the Emerald Drake", "=ds=Mount","","100%"};
+		{ 17, 57903, "", "=q4=Crystal of the Emerald Drake", "=ds=Mount","","100%"};
+		Prev = "EDGuardianoftheDream1";
+	};
+
 	AtlasLoot_Data["EDTrash"] = {
-		{ 1, 23015, "" , "Rat Cage", "","","100%"};
+		{ 1, 19436, "", "=q4=Cloak of Draconic Might", "=ds=#s4#", "", "2.53%"};
+		{ 2, 19437, "", "=q4=Boots of Pure Thought", "=ds=#s12#, #a1#", "", "2.33%"};
+		{ 3, 19438, "", "=q4=Ringo's Blizzard Boots", "=ds=#s12#, #a1#", "", "4.42%"};
+		{ 4, 19439, "", "=q4=Interlaced Shadow Jerkin", "=ds=#s5#, #a2#", "", "4.62%"};
+		{ 5, 19434, "", "=q4=Band of Dark Dominion", "=ds=#s13#", "", "1.57%"};
+		{ 6, 19362, "", "=q4=Doom's Edge", "=ds=#h1#, #w1#", "", "1.67%"};
+		{ 7, 19354, "", "=q4=Draconic Avenger", "=ds=#h2#, #w1#", "", "5.96%"};
+		{ 8, 19358, "", "=q4=Draconic Maul", "=ds=#h2#, #w6#", "", "2.30%"};
+		{ 9, 19435, "", "=q4=Essence Gatherer", "=ds=#w12#", "", "1.61%"};
 	};
+
 		------------------
 		--- Gnomeregan ---
 		------------------

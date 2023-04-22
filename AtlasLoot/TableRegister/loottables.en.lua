@@ -730,8 +730,14 @@ end
 	AtlasLoot_TableNames["DMWShendralarProvisioner"] = { AL["Shen'dralar Provisioner"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["DMWTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Dire Maul (West)"]..")", "AtlasLootOriginalWoW" };
   -- Emerald Dream
-	AtlasLoot_TableNames["EDADragonProbably"] = { "A dragon !", "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["EDTrash"] = { "Trash Mobs (Molten Core)", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDCrablante"] = { "Crablante", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDLeymor"] = { "Leymor", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDOvergrownAncient"] = { "Overgrown Ancient", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDVerdantKeeper"] = { "Verdant Keeper", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDWatcherNishera"] = { "Watcher Nishera", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDGuardianoftheDream1"] = { "Guardian of the Dream", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDGuardianoftheDream2"] = { "Guardian of the Dream", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EDTrash"] = { "Trash Mobs (Emerald Dream)", "AtlasLootOriginalWoW" };
   -- Gnomeregan
 	AtlasLoot_TableNames["Gnomeregan1"] = { BabbleZone["Gnomeregan"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Gnomeregan2"] = { BabbleZone["Gnomeregan"], "AtlasLootOriginalWoW" };

@@ -310,7 +310,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "BWLTrashMobs" },
 	},
 	["EmeraldDream"] = {
-		{ "", "EDADragonProbably"},
+		{ "", "EDCrablante" },
+		{ "", "EDLeymor" },
+		{ "", "EDOvergrownAncient" },
+		{ "", "EDVerdantKeeper" },
+		{ "", "EDWatcherNishera" },
+		{ "", "EDGuardianoftheDream1" },
 		{ "", "EDTrash" },
 	},
 	["Karazhan"] = {
