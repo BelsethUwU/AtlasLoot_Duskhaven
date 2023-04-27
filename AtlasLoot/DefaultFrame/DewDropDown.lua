@@ -50,9 +50,9 @@ AtlasLoot_DewDropDown = {
 					{ "Emerald Dream", "EmeraldDream", "Submenu"},
 					{ BabbleZone["Onyxia's Lair"], "OnyxiaL60", "Table" },
 					{ BabbleZone["Zul'Gurub"], "ZulGurub", "Submenu" },
-					--{ BabbleZone["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
-					--{ BabbleZone["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
-					--{ BabbleZone["Naxxramas"], "Naxxramas", "Submenu" },
+					{ "[Not released] Ruins of Ahn'Qiraj (Not C'thun)", "RuinsofAQ", "Submenu" },
+					{ "[Not released] Temple of Ahn'Qiraj (C'thun)", "TempleofAQ", "Submenu" },
+					{ "[Not released] Naxxramas", "Naxxramas", "Submenu" },
 				},
 			},
 		},
@@ -201,11 +201,11 @@ AtlasLoot_DewDropDown = {
 		},
 	},
 --]=]
+	[2] = {
+		{ AL["Sets/Collections"], "SELECTION", "Table"},
+	},
 	[3] = {
 		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
-	},
-	[2] = {
-		{ AL["Sets/Collections"], "SETMENU", "Table" },
 	},
 	[4] = {
 		{ AL["PvP Rewards"], "PVPMENU", "Table" },

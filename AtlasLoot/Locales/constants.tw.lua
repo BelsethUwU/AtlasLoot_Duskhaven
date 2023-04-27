@@ -164,8 +164,7 @@ if AL then
 	AL["Ruins of Ahn'Qiraj Sets"] = "安其拉廢墟套裝";
 	AL["Temple of Ahn'Qiraj Sets"] = "安其拉神廟套裝";
 	AL["Tabards"] = "外袍";
-	AL["Tier 1/2 Sets"] = "T1/2 套裝";
-	AL["Tier 1/2/3 Sets"] = "T1/2/3 套裝";
+
 	AL["Tier 3 Sets"] = "T3 套裝";
 	AL["Tier 4/5/6 Sets"] = "T4/5/6 套裝";
 	AL["Tier 7/8 Sets"] = "T7/T8 套裝";

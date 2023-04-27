@@ -1174,7 +1174,7 @@ AtlasLootNewBossButtons = {
         "BWLNefarian1";
         "";
         "BWLTrashMobs";
-        "T1T2T3SET";
+        "T2SET";
         };
 
     DireMaulEast = {
@@ -1338,7 +1338,7 @@ AtlasLootNewBossButtons = {
         "MCMajordomo";
         "MCRagnaros";
         "";
-        "T1T2T3SET";
+        "T1T3SET";
         "MCRANDOMBOSSDROPPS";
         "MCTrashMobs";
         };
@@ -2980,7 +2980,7 @@ AtlasLootBossButtons = {
         "BWLNefarian1";
         "";
         "BWLTrashMobs";
-        "T1T2T3SET";
+        "T2SET";
         };
 
     DireMaulEast = {
@@ -3144,7 +3144,7 @@ AtlasLootBossButtons = {
         "MCMajordomo";
         "MCRagnaros";
         "";
-        "T1T2T3SET";
+        "T1SET";
         "MCRANDOMBOSSDROPPS";
         "MCTrashMobs";
         };

@@ -10529,7 +10529,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 27, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3# #w6#", "" };
 		--]]
 		--Next = "Legendaries2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 	
 	AtlasLoot_Data["Legendaries2"] = {
@@ -10537,7 +10537,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, 57455, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=ds=#h1#, #w10#"};
 		{ 3, 57456, "", "=q5=Sulfuras, Hand of Ragnaros", "=ds=#h2#, #w6#"};
 		Prev = "Legendaries";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 		---------------
@@ -10572,7 +10572,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 29, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7# =ec1=#m6#"};
 		{ 30, 45583, "", "=q1=Undercity Tabard", "=ds=#s7# =ec1=#m6#"};
 		Next = "Tabards2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 	AtlasLoot_Data["Tabards2"] = {
@@ -10607,7 +10607,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 30, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#, =ec1=#m6#"};
 		Prev = "Tabards3";
 		Next = "Tabards1";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 	AtlasLoot_Data["Tabards1"] = {
@@ -10631,7 +10631,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
 		{ 23, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
 		Prev = "Tabards2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 		----------------------------------
@@ -10665,7 +10665,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 38578, "", "=q3=The Flag of Ownership", "=ds=#ud29#"};
 		{ 29, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds=#ud30#"};
 		Next = "CardGame2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 	AtlasLoot_Data["CardGame2"] = {
@@ -10697,7 +10697,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 30, 23720, "", "=q4=Riding Turtle", "=ds=#ud8#"};	
 		Prev = "CardGame1";
 		Next = "CardGame3";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 	AtlasLoot_Data["CardGame3"] = {
@@ -10713,7 +10713,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 10, 49704, "", "=q4=Carved Ogre Idol", "=ds="};
 		{ 11, 49703, "", "=q4=Perpetual Purple Firework", "=ds="};
 		Prev = "CardGame2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 		-------------------
@@ -11331,7 +11331,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 29, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "65 #eofheroism#  / 95 #champseal#"};
 		{ 30, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "65 #eofheroism#  / 95 #champseal#"};
 		Next = "Heirloom2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 	AtlasLoot_Data["Heirloom2"] = {
@@ -11352,7 +11352,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "325 #wintergrasp#"};
 		{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "325 #wintergrasp#"};
 		Prev = "Heirloom";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 		-------------------------------
@@ -11685,7 +11685,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 29, 50987, "", "=q4=Malevolant Girdle", "=ds=#s10#, #a4#", "60 #eoffrost#" };
 		{ 30, 50991, "", "=q4=Verdigris Chain Belt", "=ds=#s10#, #a4#", "60 #eoffrost#" };
 		Next = "EmblemofFrost2";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};
 
 	AtlasLoot_Data["EmblemofFrost2"] = {
@@ -11713,5 +11713,5 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 26, 50464, "", "=q4=Totem of the Surging Sea", "=ds=#s16#, #w15#", "30 #eoffrost#" };
 		{ 28, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "30 #eoffrost#" };
 		Prev = "EmblemofFrost";
-		Back = "SETMENU";
+		Back = "SETMENUU";
 	};

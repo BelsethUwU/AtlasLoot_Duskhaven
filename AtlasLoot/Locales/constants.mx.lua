@@ -899,8 +899,7 @@ if AL then
 	AL["Dungeon Set 3"] = "Conjunto de Mazmorra 3";	
 	AL["Dungeon 3 Sets"] = "Conjuntos de Mazmorra 3";
 --	AL["Mythic Dungeon Set"] = "";
-	AL["Tier 1/2 Sets"] = "Conjuntos T1/2";
-	AL["Tier 1/2/3 Sets"] = "Conjuntos T1/2/3";
+
 	AL["Tier 3 Sets"] = "Conjuntos T3";
 	AL["Tier 4/5/6 Sets"] = "Conjuntos T4/5/6";
 	AL["PvP Reputation Sets (Level 70)"] = "Conjuntos JcJ por Reputación (Nivel 70)";
