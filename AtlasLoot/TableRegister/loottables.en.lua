@@ -812,6 +812,13 @@ end
 	AtlasLoot_TableNames["AQ20Trash"] = { AL["Trash Mobs"].." (AQ20)", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["AQ20ClassBooks"] = { "AQ Class Books", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["AQEnchants"] = { "AQ Enchants", "AtlasLootOriginalWoW" };
+  -- The Ruins of Ahn'Qiraj HEROIC
+	AtlasLoot_TableNames["AQ20KurinnaxxHEROIC"] = { BabbleBoss["Kurinnaxx"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ20RajaxxHEROIC"] = { BabbleBoss["General Rajaxx"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ20MoamHEROIC"] = { BabbleBoss["Moam"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ20BuruHEROIC"] = { BabbleBoss["Buru the Gorger"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ20AyamissHEROIC"] = { BabbleBoss["Ayamiss the Hunter"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ20OssirianHEROIC"] = { BabbleBoss["Ossirian the Unscarred"], "AtlasLootOriginalWoW" };
   -- Scarlet Monestery
 	AtlasLoot_TableNames["SMHerod"] = { BabbleZone["Scarlet Monastery"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["SMCathedral"] = { BabbleZone["Cathedral"], "AtlasLootOriginalWoW" };
@@ -901,6 +908,16 @@ end
 	AtlasLoot_TableNames["AQ40Trash1"] = { AL["Trash Mobs"].." (AQ40)", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["AQ40Trash2"] = { AL["Trash Mobs"].." (AQ40)", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["AQOpening"] = { "AQ Opening Quest Line", "AtlasLootOriginalWoW" };
+  -- Temple of Ahn'Qiraj HEROIC
+	AtlasLoot_TableNames["AQ40SkeramHEROIC"] = { BabbleBoss["The Prophet Skeram"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40VemHEROIC"] = { BabbleBoss["The Bug Family"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40SarturaHEROIC"] = { BabbleBoss["Battleguard Sartura"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40FankrissHEROIC"] = { BabbleBoss["Fankriss the Unyielding"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40ViscidusHEROIC"] = { BabbleBoss["Viscidus"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40HuhuranHEROIC"] = { BabbleBoss["Princess Huhuran"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40EmperorsHEROIC"] = { BabbleBoss["The Twin Emperors"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40OuroHEROIC"] = { BabbleBoss["Ouro"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40CThunHEROIC"] = { BabbleBoss["C'Thun"], "AtlasLootOriginalWoW" };
   -- Uldaman
 	AtlasLoot_TableNames["UldMagreganDeepshadow"] = { AL["Magregan Deepshadow"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["UldTabletofRyuneh"] = { "Tablet of Ryun'eh", "AtlasLootOriginalWoW" };
