@@ -52,7 +52,7 @@ AtlasLoot_DewDropDown = {
 					{ BabbleZone["Zul'Gurub"], "ZulGurub", "Submenu" },
 					{ "[Not released] Ruins of Ahn'Qiraj (Not C'thun)", "RuinsofAQ", "Submenu" },
 					{ "[Not released] Temple of Ahn'Qiraj (C'thun)", "TempleofAQ", "Submenu" },
-					{ "[Not released] Naxxramas", "Naxxramas", "Submenu" },
+					{ "[Not released] Naxxramas", "NaxxramasL60", "Submenu" },
 				},
 			},
 		},
