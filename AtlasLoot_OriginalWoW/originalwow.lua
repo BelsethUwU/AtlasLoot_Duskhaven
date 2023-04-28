@@ -2148,6 +2148,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 17782, "", "=q5=Talisman of Binding Shard", "=ds=#s2#", "", "??.??%"};
 		{ 8, 18563, "", "=q5=Bindings of the Windseeker", " =ds=#m3#, =q1=#m10#", "", "??.??%"};
 		{ 9, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=q1=#m4#: =ds=#h1#, #w10#"};
+		{ 25, 17204, "", "=q5=Eye of Sulfuras", "=ds=#m3#", "", "3.42%"};
+		{ 26, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=q1=#m4#: =ds=#h2#, #w6#"};
 		Prev = "MCSulfuronHEROIC";
 		Next = "MCRagnarosHEROIC";
 	};
