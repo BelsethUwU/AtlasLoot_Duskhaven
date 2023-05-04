@@ -7012,7 +7012,26 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		-----------------
 		--- AQ40 Sets ---
 		-----------------
-
+	AtlasLoot_Data["AQ40Sets"]= {
+		{ 1, "AQ40Druid", "classicon_druid", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
+		{ 3, "AQ40Mage", "classicon_mage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5=AQ40"};
+		{ 5, "AQ40Priest", "classicon_priest", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5=AQ40"};
+		{ 7, "AQ40Shaman", "classicon_Shaman", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5=AQ40"};
+		{ 9, "AQ40Warrior", "classicon_Warrior", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5=AQ40"};
+		{ 11, "AQ40DK", "classicon_deathknight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5=AQ40"};
+		{ 16, "AQ40Hunter", "classicon_hunter", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5=AQ40"};
+		{ 18, "AQ40Paladin", "classicon_paladin", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5=AQ40"};
+		{ 20, "AQ40Rogue", "classicon_rogue", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5=AQ40"};
+		{ 22, "AQ40Warlock", "classicon_warlock", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5=AQ40"};
+		{ 24, "AQ40Monk", "inv_helmet_52", "=ds=Monk", "=q5=AQ40"};
+		{ 26, "AQ40Bard", "achievement_bg_kill_carrier_opposing_flagroom", "=ds=Bard", "=q5=AQ40"};
+		Back = "SETMENUU";
+	};
+	AtlasLoot_Data["AQ40Druid"] = {
+		{ 1, "AQ40DruidFeral", "Spell_Nature_Unyeildingstamina", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
+		{ 1, "AQ40DruidRestoration", "Spell_Nature_Rejuvenation", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
+		{ 1, "AQ40DruidMoonkin", "Spell_Arcane_Arcane03", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
+	};
 	AtlasLoot_Data["AQ40Sets1"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#aq40s1#", "=ec1=#c1#"};
 		{ 2, 21357, "", "=q4=Genesis Vest", "=q4=#aq40t4#, =ds=#r3#"};
