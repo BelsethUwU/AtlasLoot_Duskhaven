@@ -1,8 +1,10 @@
 # AtlasLoot_Duskhaven
 An AtlasLoot version for Duskhaven
 
-## PLEASE REPORT ANY ISSUE DIRRECTLY TO MY DISCORD : Illustre, The Stimming Machine#3803
+## PLEASE REPORT ANY ISSUE DIRRECTLY TO MY DISCORD OR DIRECTLY THROUGH GITHUB'S TICKET
 This also includes any suggestion or request.
+Illustre, The Stimming Machine#3803
+https://github.com/BelsethUwU/AtlasLoot_Duskhaven/issues
 ### Also, Known issue :
 "AtlasLoot Error! Loot Module returned as nil!"
 -> Click in any other menu and reclick on the one you wanted to click on.
