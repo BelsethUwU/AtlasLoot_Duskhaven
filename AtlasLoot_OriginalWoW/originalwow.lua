@@ -6558,7 +6558,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 	
 	AtlasLoot_Data["T2Warrior"] = {
-
 		{ 1, 0, "INV_Shield_05", "=q6=#t2s9#", "=ec1=#m31#"};
 		{ 2, 16963, "", "=q4=Helm of Wrath", "=ds="..BabbleBoss["Onyxia"], "", "13.65%"};
 		{ 3, 16961, "", "=q4=Pauldrons of Wrath", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
@@ -6999,95 +6998,212 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		-----------------
 		--- AQ40 Sets ---
 		-----------------
-	AtlasLoot_Data["AQ40Sets"]= {
-		{ 1, "AQ40Druid", "classicon_druid", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
-		{ 3, "AQ40Mage", "classicon_mage", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5=AQ40"};
-		{ 5, "AQ40Priest", "classicon_priest", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5=AQ40"};
-		{ 7, "AQ40Shaman", "classicon_Shaman", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5=AQ40"};
-		{ 9, "AQ40Warrior", "classicon_Warrior", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5=AQ40"};
-		{ 11, "AQ40DK", "classicon_deathknight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5=AQ40"};
-		{ 16, "AQ40Hunter", "classicon_hunter", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5=AQ40"};
-		{ 18, "AQ40Paladin", "classicon_paladin", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5=AQ40"};
-		{ 20, "AQ40Rogue", "classicon_rogue", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5=AQ40"};
-		{ 22, "AQ40Warlock", "classicon_warlock", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5=AQ40"};
-		{ 24, "AQ40Monk", "inv_helmet_52", "=ds=Monk", "=q5=AQ40"};
-		{ 26, "AQ40Bard", "achievement_bg_kill_carrier_opposing_flagroom", "=ds=Bard", "=q5=AQ40"};
-		Back = "SETMENUU";
+	AtlasLoot_Data["AQ40Bard"] = {
+		Back = "AQ40Sets";
 	};
 	AtlasLoot_Data["AQ40Druid"] = {
-		{ 1, "AQ40DruidFeral", "Spell_Nature_Unyeildingstamina", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
-		{ 1, "AQ40DruidRestoration", "Spell_Nature_Rejuvenation", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
-		{ 1, "AQ40DruidMoonkin", "Spell_Arcane_Arcane03", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5=AQ40"};
+		{ 1, "AQ40DruidFeral", "Spell_Nature_Unyeildingstamina", "=ds=Feral", "=q5=AQ40"};
+		{ 2, "AQ40DruidRestoration", "Spell_Nature_Rejuvenation", "=ds=Restoration", "=q5=AQ40"};
+		{ 3, "AQ40DruidMoonkin", "Spell_Arcane_Arcane03", "=ds=Balance", "=q5=AQ40"};
+		Back = "AQ40Sets";
 	};
-	AtlasLoot_Data["AQ40Sets1"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#aq40s1#", "=ec1=#c1#"};
-		{ 2, 21357, "", "=q4=Genesis Vest", "=q4=#aq40t4#, =ds=#r3#"};
-		{ 3, 21353, "", "=q4=Genesis Helm", "=q4=#aq40t6#, =ds=#r2#"};
-		{ 4, 21356, "", "=q4=Genesis Trousers", "=q4=#aq40t7#, =ds=#r2#"};
-		{ 5, 21354, "", "=q4=Genesis Shoulderpads", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 6, 21355, "", "=q4=Genesis Boots", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#aq40s2#", "=ec1=#c2#"};
-		{ 9, 21370, "", "=q4=Striker's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
-		{ 10, 21366, "", "=q4=Striker's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
-		{ 11, 21368, "", "=q4=Striker's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
-		{ 12, 21367, "", "=q4=Striker's Pauldrons", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 13, 21365, "", "=q4=Striker's Footguards", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 16, 0, "Spell_Frost_IceStorm", "=q6=#aq40s3#", "=ec1=#c3#"};
-		{ 17, 21343, "", "=q4=Enigma Robes", "=q4=#aq40t4#, =ds=#r3#"};
-		{ 18, 21347, "", "=q4=Enigma Circlet", "=q4=#aq40t2#, =ds=#r2#"};
-		{ 19, 21346, "", "=q4=Enigma Leggings", "=q4=#aq40t3#, =ds=#r2#"};
-		{ 20, 21345, "", "=q4=Enigma Shoulderpads", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 21, 21344, "", "=q4=Enigma Boots", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 23, 0, "Spell_Holy_SealOfMight", "=q6=#aq40s4#", "=ec1=#c4#"};
-		{ 24, 21389, "", "=q4=Avenger's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
-		{ 25, 21387, "", "=q4=Avenger's Crown", "=q4=#aq40t6#, =ds=#r2#"};
-		{ 26, 21390, "", "=q4=Avenger's Legguards", "=q4=#aq40t7#, =ds=#r2#"};
-		{ 27, 21391, "", "=q4=Avenger's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 28, 21388, "", "=q4=Avenger's Greaves", "=q4=#aq40t1#, =ds=#r1#"};
-		Next = "AQ40Sets2";
-		Back = "SETMENUU";
+	AtlasLoot_Data["AQ40Priest"] = {
+		{ 1, "AQ40PriestHeal", "spell_holy_heal", "=ds=Heal", "=q5=AQ40"};
+		{ 2, "AQ40PriestShadow", "spell_shadow_summonvoidwalker", "=ds=Shadow", "=q5=AQ40"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Paladin"] = {
+		{ 1, "AQ40PaladinProtection","spell_holy_avengersshield","=ds=Protection", "=q5=AQ40"};
+		{ 2, "AQ40PaladinHoly","spell_holy_searinglight","=ds=Holy", "=q5=AQ40"};
+		{ 3, "AQ40PaladinRetribution","ability_paladin_divinestorm","=ds=Retribution", "=q5=AQ40"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Shaman"] = {
+		{ 1, "AQ40ShamanTank","spell_nature_lightningshield","=ds=Tank", "=q5=AQ40"};
+		{ 2, "AQ40ShamanRestoration","spell_nature_riptide","=ds=Restoration", "=q5=AQ40"};
+		{ 3, "AQ40ShamanEnhancement","ability_shaman_stormstrike","=ds=Enhancement", "=q5=AQ40"};
+		{ 4, "AQ40ShamanElemental","spell_nature_lightning","=ds=Elemental", "=q5=AQ40"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Warrior"] = {
+		{ 1, "AQ40WarriorProtection","inv_shield_06","=ds=Protection", "=q5=AQ40"};
+		{ 2, "AQ40WarriorDamage","ability_parry","=ds=Damage", "=q5=AQ40"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Dk"] = {
+		{ 1, "AQ40DkTank","spell_deathknight_butcher2","=ds=Tank", "=q5=AQ40"};
+		{ 2, "AQ40DkDamage","spell_shadow_plaguecloud","=ds=Damage", "=q5=AQ40"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40WarriorDamage"] = {
+		{ 1, 57180, "", "=q4=Conqueror's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57181, "", "=q4=Conqueror's Crown", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 57182, "", "=q4=Conqueror's Legguards", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 57183, "", "=q4=Conqueror's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 57184, "", "=q4=Conqueror's Greaves", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Warrior";
+	};
+	AtlasLoot_Data["AQ40WarriorProtection"] = {
+		{ 1, 21331, "", "=q4=Conqueror's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 21329, "", "=q4=Conqueror's Crown", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 21332, "", "=q4=Conqueror's Legguards", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 21330, "", "=q4=Conqueror's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 21333, "", "=q4=Conqueror's Greaves", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Warrior";
+	};
+	AtlasLoot_Data["AQ40ShamanRestoration"] = {
+		{ 1, 21374, "", "=q4=Stormcaller's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 21372, "", "=q4=Stormcaller's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 21375, "", "=q4=Stormcaller's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 21376, "", "=q4=Stormcaller's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 21373, "", "=q4=Stormcaller's Footguards", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Shaman";
+	};
+	AtlasLoot_Data["AQ40ShamanEnhancement"] = {
+		{ 1, 57185, "", "=q4=Stormcaller's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57186, "", "=q4=Stormcaller's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57187, "", "=q4=Stormcaller's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57188, "", "=q4=Stormcaller's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57189, "", "=q4=Stormcaller's Footguards", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Shaman";
+	};
+	AtlasLoot_Data["AQ40ShamanRestoration"] = {
+		{ 1, 57190, "", "=q4=Stormcaller's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57191, "", "=q4=Stormcaller's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57192, "", "=q4=Stormcaller's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57193, "", "=q4=Stormcaller's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57194, "", "=q4=Stormcaller's Footguards", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Shaman";
+	};
+	AtlasLoot_Data["AQ40ShamanTank"] = {
+		{ 1, 57195, "", "=q4=Stormcaller's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57196, "", "=q4=Stormcaller's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57197, "", "=q4=Stormcaller's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57198, "", "=q4=Stormcaller's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57199, "", "=q4=Stormcaller's Footguards", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Shaman";
+	};
+	AtlasLoot_Data["AQ40PriestShadow"] = {
+		{ 1, 57200, "", "=q4=Vestments of the Oracle", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 57201, "", "=q4=Tiara of the Oracle", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 57202, "", "=q4=Trousers of the Oracle", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 57203, "", "=q4=Mantle of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 57204, "", "=q4=Footwraps of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Priest";
+	};
+	AtlasLoot_Data["AQ40Monk"] = {
+		{ 1, 57200, "", "=q4=Vestments of the Oracle", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 57201, "", "=q4=Tiara of the Oracle", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 57202, "", "=q4=Trousers of the Oracle", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 57203, "", "=q4=Mantle of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 57204, "", "=q4=Footwraps of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40PriestHeal"] = {
+		{ 1, 21351, "", "=q4=Vestments of the Oracle", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 21348, "", "=q4=Tiara of the Oracle", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 21352, "", "=q4=Trousers of the Oracle", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 21350, "", "=q4=Mantle of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 21349, "", "=q4=Footwraps of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Priest";
+	};
+	AtlasLoot_Data["AQ40PaladinRetribution"] = {
+		{ 1, 57205, "", "=q4=Avenger's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57206, "", "=q4=Avenger's Crown", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57207, "", "=q4=Avenger's Legguards", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57208, "", "=q4=Avenger's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57209, "", "=q4=Avenger's Greaves", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Paladin";
+	};
+	AtlasLoot_Data["AQ40PaladinHoly"] = {
+		{ 1, 21389, "", "=q4=Avenger's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 21387, "", "=q4=Avenger's Crown", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 21390, "", "=q4=Avenger's Legguards", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 21391, "", "=q4=Avenger's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 21388, "", "=q4=Avenger's Greaves", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Paladin";
+	};
+	AtlasLoot_Data["AQ40PaladinProtection"] = {
+		{ 1, 57210, "", "=q4=Avenger's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57211, "", "=q4=Avenger's Crown", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57212, "", "=q4=Avenger's Legguards", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57213, "", "=q4=Avenger's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57214, "", "=q4=Avenger's Greaves", "=q4=#aq40t1#, =ds=#r1#"};
+		Back="AQ40Paladin";
+	};
+	AtlasLoot_Data["AQ40DruidRestoration"] = {
+		{ 1, 21357, "", "=q4=Genesis Vest", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 21353, "", "=q4=Genesis Helm", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 21356, "", "=q4=Genesis Trousers", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 21354, "", "=q4=Genesis Shoulderpads", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 21355, "", "=q4=Genesis Boots", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Druid";
+	};
+	AtlasLoot_Data["AQ40DruidFeral"] = {
+		{ 1, 57215, "", "=q4=Genesis Vest", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 57216, "", "=q4=Genesis Helm", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57217, "", "=q4=Genesis Trousers", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57218, "", "=q4=Genesis Shoulderpads", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57219, "", "=q4=Genesis Boots", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Druid";
+	};
+	AtlasLoot_Data["AQ40DruidBalance"] = {
+		{ 1, 57220, "", "=q4=Genesis Vest", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 57221, "", "=q4=Genesis Helm", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 57222, "", "=q4=Genesis Trousers", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 57223, "", "=q4=Genesis Shoulderpads", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 57224, "", "=q4=Genesis Boots", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Druid";
+	};
+	AtlasLoot_Data["AQ40DkDamage"] = {
+		{ 1, 57225, "", "=q4=Conqueror's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57226, "", "=q4=Conqueror's Crown", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 57227, "", "=q4=Conqueror's Legguards", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 57228, "", "=q4=Conqueror's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 57229, "", "=q4=Conqueror's Greaves", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Dk";
+	};
+	AtlasLoot_Data["AQ40DkTank"] = {
+		{ 1, 57230, "", "=q4=Conqueror's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 57231, "", "=q4=Conqueror's Crown", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 57232, "", "=q4=Conqueror's Legguards", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 57233, "", "=q4=Conqueror's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 57234, "", "=q4=Conqueror's Greaves", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Dk";
+	};
+	AtlasLoot_Data["AQ40Hunter"] = {
+		{ 1, 21370, "", "=q4=Striker's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 21366, "", "=q4=Striker's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 21368, "", "=q4=Striker's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 21367, "", "=q4=Striker's Pauldrons", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 21365, "", "=q4=Striker's Footguards", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Mage"] = {
+		{ 1, 21343, "", "=q4=Enigma Robes", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 21347, "", "=q4=Enigma Circlet", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 21346, "", "=q4=Enigma Leggings", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 21345, "", "=q4=Enigma Shoulderpads", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 21344, "", "=q4=Enigma Boots", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Rogue"] = {
+		{ 1, 21364, "", "=q4=Deathdealer's Vest", "=q4=#aq40t8#, =ds=#r3#"};
+		{ 2, 21360, "", "=q4=Deathdealer's Helm", "=q4=#aq40t6#, =ds=#r2#"};
+		{ 3, 21362, "", "=q4=Deathdealer's Leggings", "=q4=#aq40t3#, =ds=#r2#"};
+		{ 4, 21361, "", "=q4=Deathdealer's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
+		{ 5, 21359, "", "=q4=Deathdealer's Boots", "=q4=#aq40t5#, =ds=#r1#"};
+		Back = "AQ40Sets";
+	};
+	AtlasLoot_Data["AQ40Warlock"] = {
+		{ 1, 21334, "", "=q4=Doomcaller's Robes", "=q4=#aq40t4#, =ds=#r3#"};
+		{ 2, 21337, "", "=q4=Doomcaller's Circlet", "=q4=#aq40t2#, =ds=#r2#"};
+		{ 3, 21336, "", "=q4=Doomcaller's Trousers", "=q4=#aq40t7#, =ds=#r2#"};
+		{ 4, 21335, "", "=q4=Doomcaller's Mantle", "=q4=#aq40t1#, =ds=#r1#"};
+		{ 5, 21338, "", "=q4=Doomcaller's Footwraps", "=q4=#aq40t1#, =ds=#r1#"};
+		Back = "AQ40Sets";
 	};
 
-	AtlasLoot_Data["AQ40Sets2"] = {
-		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#aq40s5#", "=ec1=#c5#"};
-		{ 2, 21351, "", "=q4=Vestments of the Oracle", "=q4=#aq40t4#, =ds=#r3#"};
-		{ 3, 21348, "", "=q4=Tiara of the Oracle", "=q4=#aq40t2#, =ds=#r2#"};
-		{ 4, 21352, "", "=q4=Trousers of the Oracle", "=q4=#aq40t3#, =ds=#r2#"};
-		{ 5, 21350, "", "=q4=Mantle of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 6, 21349, "", "=q4=Footwraps of the Oracle", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 8, 0, "Ability_BackStab", "=q6=#aq40s6#", "=ec1=#c6#"};
-		{ 9, 21364, "", "=q4=Deathdealer's Vest", "=q4=#aq40t8#, =ds=#r3#"};
-		{ 10, 21360, "", "=q4=Deathdealer's Helm", "=q4=#aq40t6#, =ds=#r2#"};
-		{ 11, 21362, "", "=q4=Deathdealer's Leggings", "=q4=#aq40t3#, =ds=#r2#"};
-		{ 12, 21361, "", "=q4=Deathdealer's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 13, 21359, "", "=q4=Deathdealer's Boots", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#aq40s7#", "=ec1=#c7#"};
-		{ 17, 21374, "", "=q4=Stormcaller's Hauberk", "=q4=#aq40t8#, =ds=#r3#"};
-		{ 18, 21372, "", "=q4=Stormcaller's Diadem", "=q4=#aq40t6#, =ds=#r2#"};
-		{ 19, 21375, "", "=q4=Stormcaller's Leggings", "=q4=#aq40t7#, =ds=#r2#"};
-		{ 20, 21376, "", "=q4=Stormcaller's Pauldrons", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 21, 21373, "", "=q4=Stormcaller's Footguards", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 23, 0, "Spell_Shadow_CurseOfTounges", "=q6=#aq40s8#", "=ec1=#c8#"};
-		{ 24, 21334, "", "=q4=Doomcaller's Robes", "=q4=#aq40t4#, =ds=#r3#"};
-		{ 25, 21337, "", "=q4=Doomcaller's Circlet", "=q4=#aq40t2#, =ds=#r2#"};
-		{ 26, 21336, "", "=q4=Doomcaller's Trousers", "=q4=#aq40t7#, =ds=#r2#"};
-		{ 27, 21335, "", "=q4=Doomcaller's Mantle", "=q4=#aq40t1#, =ds=#r1#"};
-		{ 28, 21338, "", "=q4=Doomcaller's Footwraps", "=q4=#aq40t1#, =ds=#r1#"};
-		Next = "AQ40Sets3";
-		Prev = "AQ40Sets1";
-		Back = "SETMENUU";
-	};
-
-	AtlasLoot_Data["AQ40Sets3"] = {
-		{ 1, 0, "INV_Shield_05", "=q6=#aq40s9#", "=ec1=#c9#"};
-		{ 2, 21331, "", "=q4=Conqueror's Breastplate", "=q4=#aq40t8#, =ds=#r3#"};
-		{ 3, 21329, "", "=q4=Conqueror's Crown", "=q4=#aq40t2#, =ds=#r2#"};
-		{ 4, 21332, "", "=q4=Conqueror's Legguards", "=q4=#aq40t3#, =ds=#r2#"};
-		{ 5, 21330, "", "=q4=Conqueror's Spaulders", "=q4=#aq40t5#, =ds=#r1#"};
-		{ 6, 21333, "", "=q4=Conqueror's Greaves", "=q4=#aq40t5#, =ds=#r1#"};
-		Prev = "AQ40Sets2";
-		Back = "SETMENUU";
-	};
 
 		-----------------------
 		--- BoE World Epics ---

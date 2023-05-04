@@ -1132,9 +1132,34 @@ end
 	AtlasLoot_TableNames["AQ20Sets1"] = { AL["AQ20 Class Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["AQ20Sets2"] = { AL["AQ20 Class Sets"], "AtlasLootOriginalWoW" };
   -- AQ40 Sets
-	AtlasLoot_TableNames["AQ40Sets1"] = { AL["AQ40 Class Sets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["AQ40Sets2"] = { AL["AQ40 Class Sets"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["AQ40Sets3"] = { AL["AQ40 Class Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Sets"] = { AL["AQ40 Class Sets"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Druid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Warrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Shaman"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Paladin"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Priest"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Bard"] = { "Bard", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40Monk"] = { "Monk", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["AQ40DruidRestoration"] = {LOCALIZED_CLASS_NAMES_MALE["DRUID"].." Restoration", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40DruidFeral"] = {LOCALIZED_CLASS_NAMES_MALE["DRUID"].." Feral", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40DruidBalance"] = {LOCALIZED_CLASS_NAMES_MALE["DRUID"].." Balance", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40WarriorProtection"] = {LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." Protection", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40WarriorDamage"] = {LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." Damage", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40DkTank"] = {LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." Tank", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40DkDamage"] = {LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." Damage", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40ShamanTank"] = {LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." Tank", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40ShamanRestoration"] = {LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." Restoration", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40ShamanEnhancement"] = {LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." Enhancement", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40ShamanElemental"] = {LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." Elemental", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40PaladinProtection"] = {LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." Protection", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40PaladinHoly"] = {LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." Holy", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40PaladinRetribution"] = {LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." Retribution", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40PriestHeal"] = {LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." Heal", "AtlasLootOriginalWoW"};
+	AtlasLoot_TableNames["AQ40PriestShadow"] = {LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." Shadow", "AtlasLootOriginalWoW"};
   -- Dungeon Set 1/2
 	AtlasLoot_TableNames["T0Druid"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["T0Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootOriginalWoW" };
@@ -1193,7 +1218,6 @@ end
     AtlasLoot_TableNames["T2Shaman2"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootOriginalWoW" };
     AtlasLoot_TableNames["T2Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
     AtlasLoot_TableNames["T2Warrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
-    AtlasLoot_TableNames["T2Warrior2"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
     AtlasLoot_TableNames["T2DK"]= { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["T2Bard"] = { "Bard", "AtlasLootOriginalWoW" };
   -- T3 Sets
@@ -1906,6 +1930,12 @@ end
 	AtlasLoot_TableNames["T1SET"] = { "Tier 1 Sets", "Menu" };
 	AtlasLoot_TableNames["T2SET"] = { "Tier 2 Sets", "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { "Tier 3 Sets", "Menu" };
+	AtlasLoot_TableNames["AQ40Sets"] = { "Ahn'Qiraj Sets", "Menu"};
+	AtlasLoot_TableNames["AQ40Paladin"] = { "Ahn'Qiraj Paladin", "Menu"};
+	AtlasLoot_TableNames["AQ40Druid"] = { "Ahn'Qiraj Druid", "Menu"};
+	AtlasLoot_TableNames["AQ40Shaman"] = { "Ahn'Qiraj Shaman", "Menu"};
+	AtlasLoot_TableNames["AQ40Death Knight"] = { "Ahn'Qiraj Death Knight", "Menu"};
+	AtlasLoot_TableNames["AQ40Warrior"] = { "Ahn'Qiraj Warrior", "Menu"};
  	AtlasLoot_TableNames["SETMENUU"] = { "Sets", "Menu" };
  	AtlasLoot_TableNames["SELECTION"] = { "Selection", "Menu" };
 	AtlasLoot_TableNames["COLLECTIONMENU"] = { "Collection", "Menu" };

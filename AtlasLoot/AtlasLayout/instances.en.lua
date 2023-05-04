@@ -1673,7 +1673,7 @@ AtlasLootNewBossButtons = {
         "";
         "AQ40Trash1";
         "AQEnchants";
-        "AQ40Sets1";
+        "AQ40Sets";
         "AQOpening";
         };
 
@@ -3479,7 +3479,7 @@ AtlasLootBossButtons = {
         "";
         "AQ40Trash1";
         "AQEnchants";
-        "AQ40Sets1";
+        "AQ40Sets";
         "AQOpening";
         };
 
