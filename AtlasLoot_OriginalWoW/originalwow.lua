@@ -285,41 +285,41 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--- Ahn'Qiraj: The Ruins of Ahn'Qiraj HEROIC ---
 		------------------------------------------------
 	AtlasLoot_Data["AQ20KurinnaxxHEROIC"] = {
-		{ 1, 57235, "", "=q4=Qiraji Sacrificial Dagger", "=ds=#h1#, #w4#", "", "7.53%"};
+		{ 1, 57235, "", "=q4=Qiraji Sacrificial Dagger", "=ds=#h1#, #w4#", "", "100%"};
 		Next = "AQ20RajaxxHEROIC";
 	};
 	AtlasLoot_Data["AQ20RajaxxHEROIC"] = {
-		{ 1, 57236, "", "=q4=Manslayer of the Qiraji", "=ds=#h2#, #w10#", "", "10.04%"};
+		{ 1, 57236, "", "=q4=Manslayer of the Qiraji", "=ds=#h2#, #w10#", "", "100%"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Rajaxx's Captains"], ""};
-		{ 17, 57237, "", "=q3=Fury of the Forgotten Swarm", "=ds=#s2#", "", "3.20%"};
-		{ 18, 57238, "", "=q3=Gavel of Qiraji Authority", "=ds=#h2#, #w6#", "", "3.04%"};
+		{ 17, 57237, "", "=q3=Fury of the Forgotten Swarm", "=ds=#s2#", "", "100%"};
+		{ 18, 57238, "", "=q3=Gavel of Qiraji Authority", "=ds=#h2#, #w6#", "", "100%"};
 		Prev = "AQ20KurinnaxxHEROIC";
 		Next = "AQ20MoamHEROIC";
 	};
 	AtlasLoot_Data["AQ20MoamHEROIC"] = {
-		{ 1, 57239, "", "=q4=Talon of Furious Concentration", "=ds=#s15#", "", "7.39%"};
-		{ 2, 57240, "", "=q3=Ring of Fury", "=ds=#s13#", "", "14.42%"};
-		{ 3, 57241, "", "=q3=Eye of Moam", "=ds=#s14#", "", "14.74%"};
+		{ 1, 57239, "", "=q4=Talon of Furious Concentration", "=ds=#s15#", "", "100%"};
+		{ 2, 57240, "", "=q3=Ring of Fury", "=ds=#s13#", "", "100%"};
+		{ 3, 57241, "", "=q3=Eye of Moam", "=ds=#s14#", "", "100%"};
 		Prev = "AQ20RajaxxHEROIC";
 		Next = "AQ20BuruHEROIC";
 	};
 	AtlasLoot_Data["AQ20BuruHEROIC"] = {
-		{ 1, 57242, "", "=q4=Buru's Skull Fragment", "=ds=#w8#", "", "7.88%"};
-		{ 2, 57243, "", "=q3=Fetish of Chitinous Spikes", "=ds=#s14#", "", "17.22%"};
+		{ 1, 57242, "", "=q4=Buru's Skull Fragment", "=ds=#w8#", "", "100%"};
+		{ 2, 57243, "", "=q3=Fetish of Chitinous Spikes", "=ds=#s14#", "", "100%"};
 		Prev = "AQ20MoamHEROIC";
 		Next = "AQ20AyamissHEROIC";
 	};
 	AtlasLoot_Data["AQ20AyamissHEROIC"] = {
-		{ 1, 57244, "", "=q4=Stinger of Ayamiss", "=ds=#h3#, #w6#", "", "2.06%"};
-		{ 2, 57245, "", "=q4=Bow of Taut Sinew", "=ds=#w2#", "", "10.14%"};
-		{ 3, 57246, "", "=q3=Ring of the Desert Winds", "=ds=#s13#", "", "16.32%"};
+		{ 1, 57244, "", "=q4=Stinger of Ayamiss", "=ds=#h3#, #w6#", "", "100%"};
+		{ 2, 57245, "", "=q4=Bow of Taut Sinew", "=ds=#w2#", "", "100%"};
+		{ 3, 57246, "", "=q3=Ring of the Desert Winds", "=ds=#s13#", "", "100%"};
 		Prev = "AQ20BuruHEROIC";
 		Next = "AQ20OssirianHEROIC";
 	};
 	AtlasLoot_Data["AQ20OssirianHEROIC"] = {
-		{ 1, 57247, "", "=q4=Sand Polished Hammer", "=ds=#h1#, #w6#", "", "5.95%"};
-		{ 2, 57248, "", "=q4=Crossbow of Imminent Doom", "=ds=#w3#", "", "6.12%"};
-		{ 3, 57249, "", "=q4=Staff of the Ruins", "=ds=#w9#", "", "10.32%"};
+		{ 1, 57247, "", "=q4=Sand Polished Hammer", "=ds=#h1#, #w6#", "", "100%"};
+		{ 2, 57248, "", "=q4=Crossbow of Imminent Doom", "=ds=#w3#", "", "100%"};
+		{ 3, 57249, "", "=q4=Staff of the Ruins", "=ds=#w9#", "", "100%"};
 		Prev = "AQ20AyamissHEROIC";
 	};
 		------------------------------------------
@@ -603,71 +603,71 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--- Ahn'Qiraj: The Temple of Ahn'Qiraj ---
 		------------------------------------------
 	AtlasLoot_Data["AQ40SkeramHEROIC"] = {
-		{ 1, 57250, "", "=q4=Amulet of Foul Warding", "=ds=#s2#", "", "12.20%"};
-		{ 2, 57251, "", "=q4=Pendant of the Qiraji Guardian", "=ds=#s2#", "", "11.57%"};
-		{ 3, 57252, "", "=q4=Ring of Swarming Thought", "=ds=#s13#", "", "12.57%"};
-		{ 4, 57253, "", "=q4=Hammer of Ji'zhi", "=ds=#h2#, #w6#", "", "7.14%"};
-		{ 5, 57254, "", "=q4=Staff of the Qiraji Prophets", "=ds=#w9#", "", " 6.32%"};
+		{ 1, 57250, "", "=q4=Amulet of Foul Warding", "=ds=#s2#", "", "100%"};
+		{ 2, 57251, "", "=q4=Pendant of the Qiraji Guardian", "=ds=#s2#", "", "100%"};
+		{ 3, 57252, "", "=q4=Ring of Swarming Thought", "=ds=#s13#", "", "100%"};
+		{ 4, 57253, "", "=q4=Hammer of Ji'zhi", "=ds=#h2#, #w6#", "", "100%"};
+		{ 5, 57254, "", "=q4=Staff of the Qiraji Prophets", "=ds=#w9#", "", "100%"};
 		Next = "AQ40VemHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40VemHEROIC"] = {
-		{ 1, 57255, "", "=q4=Angelista's Touch", "=ds=#s13# =q2=#m5#", "", "14%"};
-		{ 2, 57257, "", "=q4=Wand of Qiraji Nobility", "=ds=#w12# =q2=#n115#", "", "25%"};
+		{ 1, 57255, "", "=q4=Angelista's Touch", "=ds=#s13# =q2=#m5#", "", "100%"};
+		{ 2, 57257, "", "=q4=Wand of Qiraji Nobility", "=ds=#w12# =q2=#n115#", "", "100%"};
 		Prev = "AQ40SkeramHEROIC";
 		Next = "AQ40SarturaHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40SarturaHEROIC"] = {
-		{ 1, 57258, "", "=q4=Badge of the Swarmguard", "=ds=#s14#", "", "13.22%"};
-		{ 2, 57259, "", "=q4=Sartura's Might", "=ds=#s15#", "", "6.47%"};
-		{ 3, 57260, "", "=q4=Silithid Claw", "=ds=#h3#, #w13#", "", "7.16%"};
+		{ 1, 57258, "", "=q4=Badge of the Swarmguard", "=ds=#s14#", "", "100%"};
+		{ 2, 57259, "", "=q4=Sartura's Might", "=ds=#s15#", "", "100%"};
+		{ 3, 57260, "", "=q4=Silithid Claw", "=ds=#h3#, #w13#", "", "100%"};
 		Prev = "AQ40VemHEROIC";
 		Next = "AQ40FankrissHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40FankrissHEROIC"] = {
-		{ 1, 57261, "", "=q4=Barbed Choker", "=ds=#s2#", "", "12.63%"};
-		{ 2, 57262, "", "=q4=Ancient Qiraji Ripper", "=ds=#h1#, #w10#", "", " 7.19%"};
-		{ 3, 57263, "", "=q4=Barb of the Sand Reaver", "=ds=#w7#", "", "6.61%"};
+		{ 1, 57261, "", "=q4=Barbed Choker", "=ds=#s2#", "", "100%"};
+		{ 2, 57262, "", "=q4=Ancient Qiraji Ripper", "=ds=#h1#, #w10#", "", "100%"};
+		{ 3, 57263, "", "=q4=Barb of the Sand Reaver", "=ds=#w7#", "", "100%"};
 		Prev = "AQ40SarturaHEROIC";
 		Next = "AQ40ViscidusHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40ViscidusHEROIC"] = {
-		{ 1, 57264, "", "=q4=Ring of the Qiraji Fury", "=ds=#s13#", "", "2.93%"};
-		{ 2, 57265, "", "=q4=Scarab Brooch", "=ds=#s14#", "", "21.46%"};
-		{ 3, 57266, "", "=q4=Sharpened Silithid Femur", "=ds=#h3#, #w10#", "", "15.12%"};
+		{ 1, 57264, "", "=q4=Ring of the Qiraji Fury", "=ds=#s13#", "", "100%"};
+		{ 2, 57265, "", "=q4=Scarab Brooch", "=ds=#s14#", "", "100%"};
+		{ 3, 57266, "", "=q4=Sharpened Silithid Femur", "=ds=#h3#, #w10#", "", "100%"};
 		Prev = "AQ40FankrissHEROIC";
 		Next = "AQ40HuhuranHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40HuhuranHEROIC"] = {
-		{ 1, 57267, "", "=q4=Huhuran's Stinger", "=ds=#w2#", "", "5.71%"};
+		{ 1, 57267, "", "=q4=Huhuran's Stinger", "=ds=#w2#", "", "100%"};
 		Prev = "AQ40ViscidusHEROIC";
 		Next = "AQ40EmperorsHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40EmperorsHEROIC"] = {
-		{ 2, 57268, "", "=q4=Kalimdor's Revenge", "=ds=#h2#, #w10#", "", "9.25%"};
-		{ 3, 57269, "", "=q4=Amulet of Vek'nilash", "=ds=#s2#", "", "14.25%"};
+		{ 2, 57268, "", "=q4=Kalimdor's Revenge", "=ds=#h2#, #w10#", "", "100%"};
+		{ 3, 57269, "", "=q4=Amulet of Vek'nilash", "=ds=#s2#", "", "100%"};
 		Prev = "AQ40HuhuranHEROIC";
 		Next = "AQ40OuroHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40OuroHEROIC"] = {
-		{ 1, 57275, "", "=q4=Jom Gabbar", "=ds=#s14#", "", "2.80%"};
-		{ 2, 57270, "", "=q4=Larvae of the Great Worm", "=ds=#w5#", "", "3.95%"};
-		{ 3, 57271, "", "=q4=Wormscale Blocker", "=ds=#w8#", "", "16.54%"};
+		{ 1, 57275, "", "=q4=Jom Gabbar", "=ds=#s14#", "", "100%"};
+		{ 2, 57270, "", "=q4=Larvae of the Great Worm", "=ds=#w5#", "", "100%"};
+		{ 3, 57271, "", "=q4=Wormscale Blocker", "=ds=#w8#", "", "100%"};
 		Prev = "AQ40EmperorsHEROIC";
 		Next = "AQ40CThunHEROIC";
 	};
 
 	AtlasLoot_Data["AQ40CThunHEROIC"] = {
-		{ 1, 57276, "", "=q4=Mark of Korthex", "=ds=#s2#", "", "10.62%"};
-		{ 2, 57277, "", "=q4=Vanquished Tentacle of C'Thun", "=ds=#s14#", "", "12.18%"};
-		{ 3, 57272, "", "=q4=Death's Sting", "=ds=#h1#, #w4#", "", "6.84%"};
-		{ 4, 57273, "", "=q4=Dark Edge of Insanity", "=ds=#h2#, #w1#", "", "5.93%"};
+		{ 1, 57276, "", "=q4=Mark of Korthex", "=ds=#s2#", "", "100%"};
+		{ 2, 57277, "", "=q4=Vanquished Tentacle of C'Thun", "=ds=#s14#", "", "100%"};
+		{ 3, 57272, "", "=q4=Death's Sting", "=ds=#h1#, #w4#", "", "100%"};
+		{ 4, 57273, "", "=q4=Dark Edge of Insanity", "=ds=#h2#, #w1#", "", "100%"};
 		{ 16, 57278, "", "=q4=Egg of the Red Battlewasp","=ds=#s14#", "","100%"};
 		Prev = "AQ40OuroHEROIC";
 	};
@@ -2056,9 +2056,9 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 4, 18875, "", "=q4=Salamander Scale Pants", "=ds=#s11#, #a2#", "", "1.81%"};
 --		{ 5, 18870, "", "=q4=Helm of the Lifegiver", "=ds=#s1#, #a3#", "", "0.78%"};
 --		{ 6, 18861, "", "=q4=Flamewaker Legplates", "=ds=#s11#, #a4#", "", "2.22%"};
-		{ 1, 57054, "", "=q4=Heavy Dark Iron Ring", "=ds=#s13#", "", "1.72%"};
-		{ 2, 57053, "", "=q4=Ring of Spell Power", "=ds=#s13#", "", "1.99%"};
-		{ 3, 57052, "", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "", "2.27%"};
+		{ 1, 57054, "", "=q4=Heavy Dark Iron Ring", "=ds=#s13#", "", "100%"};
+		{ 2, 57053, "", "=q4=Ring of Spell Power", "=ds=#s13#", "", "100%"};
+		{ 3, 57052, "", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "", "100%"};
 		{ 5, 18259, "", "=q3=Formula: Enchant Weapon - Spell Power", "=ds=#p4# (300)", "", "100%"};
 		{ 6, 18260, "", "=q3=Formula: Enchant Weapon - Healing Power", "=ds=#p4# (300)", "", "100%"};
 --		{ 10, 17077, "", "=q4=Crimson Shocker", "=ds=#w12#", "", "3.32%"};
@@ -2451,12 +2451,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 8, 16959, "", "=q4=Bracelets of Wrath", "=q1=#m1# =ds=#c9#", "", "20.29%"};
 --		{ 9, 16951, "", "=q4=Judgement Bindings", "=q1=#m1# =ds=#c4#", "", "13.61%"};
 --		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
-		{ 16, 57080, "", "=q4=The Black Book", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.37%"};
-		{ 17, 57081, "", "=q4=Arcane Infused Gem", "=ds=#s14#, =q1=#m1# =ds=#c2#", "", "17.33%"};
+		{ 16, 57080, "", "=q4=The Black Book", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "100%"};
+		{ 17, 57081, "", "=q4=Arcane Infused Gem", "=ds=#s14#, =q1=#m1# =ds=#c2#", "", "100%"};
 --		{ 19, 19370, "", "=q4=Mantle of the Blackwing Cabal", "=ds=#s3#, #a1#", "", "18.57%"};
 --		{ 20, 19369, "", "=q4=Gloves of Rapid Evolution", "=ds=#s9#, #a1#", "", "17.52%"};
-		{ 1, 57089, "", "=q4=The Untamed Blade", "=ds=#h2#, #w10#", "", "9.76%"};
-		{ 2, 57090, "", "=q4=Spineshatter", "=ds=#h1#, #w6#", "", "10.44%"};
+		{ 1, 57089, "", "=q4=The Untamed Blade", "=ds=#h2#, #w10#", "", "100%"};
+		{ 2, 57090, "", "=q4=Spineshatter", "=ds=#h1#, #w6#", "", "100%"};
 		Next = "BWLVaelastraszHEROIC";
 	};
 
@@ -2471,12 +2471,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 8, 16960, "", "=q4=Waistband of Wrath", "=q1=#m1# =ds=#c9#", "", "20.03%"};
 --		{ 9, 16952, "", "=q4=Judgement Belt", "=q1=#m1# =ds=#c4#", "", "12.23%"};
 --		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
-		{ 16, 57082, "", "=q4=Mind Quickening Gem", "=ds=#s14#, =q1=#m1# =ds=#c3#", "", "18.96%"};
-		{ 17, 57083, "", "=q4=Rune of Metamorphosis", "=ds=#s14#, =q1=#m1# =ds=#c1#", "", "17.66%"};
+		{ 16, 57082, "", "=q4=Mind Quickening Gem", "=ds=#s14#, =q1=#m1# =ds=#c3#", "", "100%"};
+		{ 17, 57083, "", "=q4=Rune of Metamorphosis", "=ds=#s14#, =q1=#m1# =ds=#c1#", "", "100%"};
 --		{ 19, 19372, "", "=q4=Helm of Endless Rage", "=ds=#s1#, #a4#", "", "16.76%"};
-		{ 3, 57091, "", "=q4=Pendant of the Fallen Dragon", "=ds=#s2#", "", "18.56%"};
-		{ 1, 57092, "", "=q4=Dragonfang Blade", "=ds=#h1#, #w4#", "", "9.40%"};
-		{ 2, 57093, "", "=q4=Red Dragonscale Protector", "=ds=#w8#", "", "8.57%"};
+		{ 3, 57091, "", "=q4=Pendant of the Fallen Dragon", "=ds=#s2#", "", "100%"};
+		{ 1, 57092, "", "=q4=Dragonfang Blade", "=ds=#h1#, #w4#", "", "100%"};
+		{ 2, 57093, "", "=q4=Red Dragonscale Protector", "=ds=#w8#", "", "100%"};
 		Prev = "BWLRazorgoreHEROIC";
 		Next = "BWLLashlayerHEROIC";
 	};
@@ -2493,12 +2493,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 9, 16957, "", "=q4=Judgement Sabatons", "=q1=#m1# =ds=#c4#", "", "11.28%"};
 --		{ 10, 31102, "", "=q4=Token of the Forgotten Vanquisher", "=ds=Tier 2 Token", "", "50%"};
 		{ 12, 20383, "", "=q1=Head of the Broodlord Lashlayer", "=ds=#m3#", "", "100%"};
-		{ 16, 57084, "", "=q4=Venomous Totem", "=ds=#s14#, =q1=#m1# =ds=#c6#", "", "15.06%"};
-		{ 17, 57085, "", "=q4=Lifegiving Gem", "=ds=#s14#, =q1=#m1# =ds=#c9#", "", "14.27%"};
+		{ 16, 57084, "", "=q4=Venomous Totem", "=ds=#s14#, =q1=#m1# =ds=#c6#", "", "100%"};
+		{ 17, 57085, "", "=q4=Lifegiving Gem", "=ds=#s14#, =q1=#m1# =ds=#c9#", "", "100%"};
 --		{ 19, 19374, "", "=q4=Bracers of Arcane Accuracy", "=ds=#s8#, #a1#", "", "15.03%"};
 --		{ 20, 19373, "", "=q4=Black Brood Pauldrons", "=ds=#s3#, #a3#", "", "17.25%"};
-		{ 1, 57094, "", "=q4=Maladath, Runed Blade of the Black Flight", "=ds=#h1#, #w10#", "", "9.62%"};
-		{ 2, 57095, "", "=q4=Heartstriker", "=ds=#w2#", "", "8.45%"};
+		{ 1, 57094, "", "=q4=Maladath, Runed Blade of the Black Flight", "=ds=#h1#, #w10#", "", "100%"};
+		{ 2, 57095, "", "=q4=Heartstriker", "=ds=#w2#", "", "100%"};
 		Prev = "BWLVaelastraszHEROIC";
 		Next = "BWLFiremawHEROIC";
 	};
@@ -2617,10 +2617,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 22, 19393, "", "=q4=Primalist's Linked Waistguard", "=ds=#s10#, #a3#", "", "6.17%"};
 --		{ 23, 19392, "", "=q4=Girdle of the Fallen Crusader", "=ds=#s10#, #a4#", "", "10.97%"};
 --		{ 24, 19387, "", "=q4=Chromatic Boots", "=ds=#s12#, #a4#", "", "16.46%"};
-		{ 1, 57103, "", "=q4=Claw of Chromaggus", "=ds=#h3#, #w4#", "", "8.39%"};
-		{ 2, 57104, "", "=q4=Chromatically Tempered Sword", "=ds=#h1#, #w10#", "", "9.05%"};
-		{ 4, 57105, "", "=q4=Elementium Reinforced Bulwark", "=ds=#w8#", "", "8.04%"};
-		{ 3, 57106, "", "=q4=Ashjre'thul, Crossbow of Smiting", "=ds=#w3#", "", "7.51%"};
+		{ 1, 57103, "", "=q4=Claw of Chromaggus", "=ds=#h3#, #w4#", "", "100%"};
+		{ 2, 57104, "", "=q4=Chromatically Tempered Sword", "=ds=#h1#, #w10#", "", "100%"};
+		{ 4, 57105, "", "=q4=Elementium Reinforced Bulwark", "=ds=#w8#", "", "100%"};
+		{ 3, 57106, "", "=q4=Ashjre'thul, Crossbow of Smiting", "=ds=#w3#", "", "100%"};
 		Prev = "BWLFlamegorHEROIC";
 		Next = "BWLNefarian1HEROIC";
 	};
@@ -2652,11 +2652,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 --		{ 20, 19377, "", "=q4=Prestor's Talisman of Connivery", "=ds=#s2#", "", "14.33%"};
 --		{ 21, 19376, "", "=q4=Archimtiros' Ring of Reckoning", "=ds=#s13#", "", "13.93%"};
 --		{ 22, 19382, "", "=q4=Pure Elementium Band", "=ds=#s13#", "", "15.15%"};
-		{ 5, 57107, "", "=q4=Neltharion's Tear", "=ds=#s14#", "", "14.26%"};
-		{ 1, 57108, "", "=q4=Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", "", "7.21%"};
-		{ 4, 57109, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "7.00%"};
-		{ 3, 57110, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "6.98%"};
-		{ 2, 57111, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "7.27%"};
+		{ 5, 57107, "", "=q4=Neltharion's Tear", "=ds=#s14#", "", "100%"};
+		{ 1, 57108, "", "=q4=Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", "", "100%"};
+		{ 4, 57109, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "100%"};
+		{ 3, 57110, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "100%"};
+		{ 2, 57111, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "100%"};
 		Prev = "BWLChromaggusHEROIC";
 		Next = "BWLNefarian2HEROIC";
 	};
