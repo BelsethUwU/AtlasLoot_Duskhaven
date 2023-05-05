@@ -1936,6 +1936,7 @@ end
 	AtlasLoot_TableNames["AQ40Shaman"] = { "Ahn'Qiraj Shaman", "Menu"};
 	AtlasLoot_TableNames["AQ40Dk"] = { "Ahn'Qiraj Death Knight", "Menu"};
 	AtlasLoot_TableNames["AQ40Warrior"] = { "Ahn'Qiraj Warrior", "Menu"};
+	AtlasLoot_TableNames["AQ40Priest"] = { "Ahn'Qiraj Priest", "Menu"};
  	AtlasLoot_TableNames["SETMENUU"] = { "Sets", "Menu" };
  	AtlasLoot_TableNames["SELECTION"] = { "Selection", "Menu" };
 	AtlasLoot_TableNames["COLLECTIONMENU"] = { "Collection", "Menu" };
