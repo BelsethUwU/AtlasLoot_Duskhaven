@@ -256,7 +256,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, "T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5=Tier 2"};
 		{ 24, "T2Monk", "inv_helmet_52", "=ds=Monk", "=q5=Tier 2"};
 		{ 26, "T2Bard", "achievement_bg_kill_carrier_opposing_flagroom", "=ds=Bard", "=q5=Tier 2"};
-
 		Back = "SETMENUU";
 	};
 

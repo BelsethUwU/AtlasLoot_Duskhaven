@@ -5708,7 +5708,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		Next = "T1Shaman";
 		Back = "T0SET";
 	};
-
 	AtlasLoot_Data["T0Warlock"] = {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t0s8#", "=ec1=#j6#"};
 		{ 2, 16698, "", "=q3=Dreadmist Mask", "=ds="..BabbleBoss["Darkmaster Gandling"].." ("..AL["Scholo"]..")", "", "8.78%"};
@@ -6111,52 +6110,40 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 24, 54890, "", "=q4=Sabatons of Might (DPS)", "=ds="..BabbleBoss["Gehennas"].."", "", "14.48%"};
 		Back="T1SET";
 	};
-
-	AtlasLoot_Data["T1DK"]= {
-		{ 1, 0, "INV_Shield_05", "=q6=#t1s9#", "=ec1=#m30#"};
-		{ 2, 16866, "", "=q4=Helm of Might", "=ds="..BabbleBoss["Garr"].."", "", "11.39%"};
-		{ 3, 16868, "", "=q4=Pauldrons of Might", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.14%"};
-		{ 4, 16865, "", "=q4=Breastplate of Might", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.28%"};
-		{ 5, 16861, "", "=q4=Bracers of Might", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 6, 16863, "", "=q4=Gauntlets of Might", "=ds="..BabbleBoss["Lucifron"].."", "", "16.40%"};
-		{ 7, 16864, "", "=q4=Belt of Might", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 8, 16867, "", "=q4=Legplates of Might", "=ds="..BabbleBoss["Magmadar"].."", "", "13.97%"};
-		{ 9, 16862, "", "=q4=Sabatons of Might", "=ds="..BabbleBoss["Gehennas"].."", "", "14.48%"};
-		{ 16, 0, "INV_Shield_05", "=q6=#t1s9#", "=ec1=#m30#"};
-		{ 17, 54883, "", "=q4=Helm of Might (DPS)", "=ds="..BabbleBoss["Garr"].."", "", "11.39%"};
-		{ 18, 54884, "", "=q4=Pauldrons of Might (DPS)", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.14%"};
-		{ 19, 54885, "", "=q4=Breastplate of Might (DPS)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.28%"};
-		{ 20, 54886, "", "=q4=Bracers of Might (DPS)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 21, 54887, "", "=q4=Gauntlets of Might (DPS)", "=ds="..BabbleBoss["Lucifron"].."", "", "16.40%"};
-		{ 22, 54888, "", "=q4=Belt of Might (DPS)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 23, 54889, "", "=q4=Legplates of Might (DPS)", "=ds="..BabbleBoss["Magmadar"].."", "", "13.97%"};
-		{ 24, 54890, "", "=q4=Sabatons of Might (DPS)", "=ds="..BabbleBoss["Gehennas"].."", "", "14.48%"};
-		Back="T1SET";
+	AtlasLoot_Data["T1DkDamage"]={
+		{ 1, 54883, "", "=q4=Helm of Might (DPS)", "=ds="..BabbleBoss["Garr"].."", "", "11.39%"};
+		{ 2, 54884, "", "=q4=Pauldrons of Might (DPS)", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.14%"};
+		{ 3, 54885, "", "=q4=Breastplate of Might (DPS)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.28%"};
+		{ 4, 54886, "", "=q4=Bracers of Might (DPS)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
+		{ 5, 54887, "", "=q4=Gauntlets of Might (DPS)", "=ds="..BabbleBoss["Lucifron"].."", "", "16.40%"};
+		{ 6, 54888, "", "=q4=Belt of Might (DPS)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
+		{ 7, 54889, "", "=q4=Legplates of Might (DPS)", "=ds="..BabbleBoss["Magmadar"].."", "", "13.97%"};
+		{ 8, 54890, "", "=q4=Sabatons of Might (DPS)", "=ds="..BabbleBoss["Gehennas"].."", "", "14.48%"};
+		Back="T1Dk";
 	};
-	
-	AtlasLoot_Data["T1Paladin"]= {
-		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t1s4#", "=ec1=#m30#"};
-		{ 2, 54915, "", "=q4=Lawbringer Helm (Holy)", "=ds="..BabbleBoss["Garr"].."", "", "7.23%"};
-		{ 3, 54916, "", "=q4=Lawbringer Spaulders (Holy)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "12.62%"};
-		{ 4, 54917, "", "=q4=Lawbringer Chestguard (Holy)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "9.53%"};
-		{ 5, 54918, "", "=q4=Lawbringer Bracers (Holy)", "=ds="..AL["Trash Mobs"].."", "", "0.11%"};
-		{ 6, 54919, "", "=q4=Lawbringer Gauntlets (Holy)", "=ds="..BabbleBoss["Gehennas"].."", "", "11.77%"};
-		{ 7, 54920, "", "=q4=Lawbringer Belt (Holy)", "=ds="..AL["Trash Mobs"].."", "", "0.10%"};
-		{ 8, 54921, "", "=q4=Lawbringer Legplates (Holy)", "=ds="..BabbleBoss["Magmadar"].."", "", "8.54%"};
-		{ 9, 54922, "", "=q4=Lawbringer Boots (Holy)", "=ds="..BabbleBoss["Lucifron"].."", "", "7.20%"};
-		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t1s4#", "=ec1=#m30#"};
-		{ 17, 54907, "", "=q4=Lawbringer Helm (Protection)", "=ds="..BabbleBoss["Garr"].."", "", "7.23%"};
-		{ 18, 54908, "", "=q4=Lawbringer Spaulders (Protection)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "12.62%"};
-		{ 19, 54909, "", "=q4=Lawbringer Chestguard (Protection)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "9.53%"};
-		{ 20, 54910, "", "=q4=Lawbringer Bracers (Protection)", "=ds="..AL["Trash Mobs"].."", "", "0.11%"};
-		{ 21, 54911, "", "=q4=Lawbringer Gauntlets (Protection)", "=ds="..BabbleBoss["Gehennas"].."", "", "11.77%"};
-		{ 22, 54912, "", "=q4=Lawbringer Belt (Protection)", "=ds="..AL["Trash Mobs"].."", "", "0.10%"};
-		{ 23, 54913, "", "=q4=Lawbringer Legplates (Protection)", "=ds="..BabbleBoss["Magmadar"].."", "", "8.54%"};
-		{ 24, 54914, "", "=q4=Lawbringer Boots (Protection)", "=ds="..BabbleBoss["Lucifron"].."", "", "7.20%"};
-		Back="T1SET";
-		Next= "T1Paladin2";
+	AtlasLoot_Data["T1PaladinHoly"]= {
+		{ 1, 54915, "", "=q4=Lawbringer Helm (Holy)", "=ds="..BabbleBoss["Garr"].."", "", "7.23%"};
+		{ 2, 54916, "", "=q4=Lawbringer Spaulders (Holy)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "12.62%"};
+		{ 3, 54917, "", "=q4=Lawbringer Chestguard (Holy)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "9.53%"};
+		{ 4, 54918, "", "=q4=Lawbringer Bracers (Holy)", "=ds="..AL["Trash Mobs"].."", "", "0.11%"};
+		{ 5, 54919, "", "=q4=Lawbringer Gauntlets (Holy)", "=ds="..BabbleBoss["Gehennas"].."", "", "11.77%"};
+		{ 6, 54920, "", "=q4=Lawbringer Belt (Holy)", "=ds="..AL["Trash Mobs"].."", "", "0.10%"};
+		{ 7, 54921, "", "=q4=Lawbringer Legplates (Holy)", "=ds="..BabbleBoss["Magmadar"].."", "", "8.54%"};
+		{ 8, 54922, "", "=q4=Lawbringer Boots (Holy)", "=ds="..BabbleBoss["Lucifron"].."", "", "7.20%"};
+		Back="T1Paladin";
 	};
-	AtlasLoot_Data["T1Paladin2"]={
+	AtlasLoot_Data["T1PaladinProtection"]={
+		{ 1, 54907, "", "=q4=Lawbringer Helm (Protection)", "=ds="..BabbleBoss["Garr"].."", "", "7.23%"};
+		{ 2, 54908, "", "=q4=Lawbringer Spaulders (Protection)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "12.62%"};
+		{ 3, 54909, "", "=q4=Lawbringer Chestguard (Protection)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "9.53%"};
+		{ 4, 54910, "", "=q4=Lawbringer Bracers (Protection)", "=ds="..AL["Trash Mobs"].."", "", "0.11%"};
+		{ 5, 54911, "", "=q4=Lawbringer Gauntlets (Protection)", "=ds="..BabbleBoss["Gehennas"].."", "", "11.77%"};
+		{ 6, 54912, "", "=q4=Lawbringer Belt (Protection)", "=ds="..AL["Trash Mobs"].."", "", "0.10%"};
+		{ 7, 54913, "", "=q4=Lawbringer Legplates (Protection)", "=ds="..BabbleBoss["Magmadar"].."", "", "8.54%"};
+		{ 8, 54914, "", "=q4=Lawbringer Boots (Protection)", "=ds="..BabbleBoss["Lucifron"].."", "", "7.20%"};
+		Back="T1Paladin";
+	};
+	AtlasLoot_Data["T1PaladinRetribution"]={
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t1s4#", "=ec1=#m30#"};
 		{ 2, 54923, "", "=q4=Lawbringer Helm (Retribution)", "=ds="..BabbleBoss["Garr"].."", "", "7.23%"};
 		{ 3, 54924, "", "=q4=Lawbringer Spaulders (Retribution)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "12.62%"};
@@ -6166,10 +6153,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 54928, "", "=q4=Lawbringer Belt (Retribution)", "=ds="..AL["Trash Mobs"].."", "", "0.10%"};
 		{ 8, 54929, "", "=q4=Lawbringer Legplates (Retribution)", "=ds="..BabbleBoss["Magmadar"].."", "", "8.54%"};
 		{ 9, 54930, "", "=q4=Lawbringer Boots (Retribution)", "=ds="..BabbleBoss["Lucifron"].."", "", "7.20%"};
-		Back="T1SET";
-		Previous= "T1Paladin";
+		Back="T1Paladin";
 	};
-	
 	AtlasLoot_Data["T1Hunter"]= {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t1s2#", "=ec1=#m30#"};
 		{ 2, 16846, "", "=q4=Giantstalker's Helmet", "=ds="..BabbleBoss["Garr"].."", "", "11.57%"};
@@ -6182,7 +6167,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 16849, "", "=q4=Giantstalker's Boots", "=ds="..BabbleBoss["Gehennas"].."", "", "14.54%"};
 		Back="T1SET";
 	};
-	
 	AtlasLoot_Data["T1Rogue"]= {
 		{ 1, 0, "Ability_BackStab", "=q6=#t1s6#", "=ec1=#m30#"};
 		{ 2, 16821, "", "=q4=Nightslayer Cover", "=ds="..BabbleBoss["Garr"].."", "", "10.38%"};
@@ -6195,18 +6179,18 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 16824, "", "=q4=Nightslayer Boots", "=ds="..BabbleBoss["Shazzrah"].."", "", "15.58%"};
 		Back="T1SET";
 	};
-	
-	AtlasLoot_Data["T1Priest"]= {
-		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t1s5#", "=ec1=#m30#"};
-		{ 2, 16813, "", "=q4=Circlet of Prophecy", "=ds="..BabbleBoss["Garr"].."", "", "11.36%"};
-		{ 3, 16816, "", "=q4=Mantle of Prophecy", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.06%"};
-		{ 4, 16815, "", "=q4=Robes of Prophecy", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.65%"};
-		{ 5, 16819, "", "=q4=Vambraces of Prophecy", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 6, 16812, "", "=q4=Gloves of Prophecy", "=ds="..BabbleBoss["Gehennas"].."", "", "18.65%"};
-		{ 7, 16817, "", "=q4=Girdle of Prophecy", "=ds="..AL["Trash Mobs"].."", "", "0.18%"};
-		{ 8, 16814, "", "=q4=Pants of Prophecy", "=ds="..BabbleBoss["Magmadar"].."", "", "14.33%"};
-		{ 9, 16811, "", "=q4=Boots of Prophecy", "=ds="..BabbleBoss["Shazzrah"].."", "", "14.90%"};
-		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t1s5#", "=ec1=#m30#"};
+	AtlasLoot_Data["T1PriestHeal"]= {
+		{ 1, 16813, "", "=q4=Circlet of Prophecy", "=ds="..BabbleBoss["Garr"].."", "", "11.36%"};
+		{ 2, 16816, "", "=q4=Mantle of Prophecy", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.06%"};
+		{ 3, 16815, "", "=q4=Robes of Prophecy", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.65%"};
+		{ 4, 16819, "", "=q4=Vambraces of Prophecy", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
+		{ 5, 16812, "", "=q4=Gloves of Prophecy", "=ds="..BabbleBoss["Gehennas"].."", "", "18.65%"};
+		{ 6, 16817, "", "=q4=Girdle of Prophecy", "=ds="..AL["Trash Mobs"].."", "", "0.18%"};
+		{ 7, 16814, "", "=q4=Pants of Prophecy", "=ds="..BabbleBoss["Magmadar"].."", "", "14.33%"};
+		{ 8, 16811, "", "=q4=Boots of Prophecy", "=ds="..BabbleBoss["Shazzrah"].."", "", "14.90%"};
+		Back="T1Priest";
+	};
+	AtlasLoot_Data["T1PriestShadow"]={
 		{ 17, 54931, "", "=q4=Circlet of Prophecy (Shadow)", "=ds="..BabbleBoss["Garr"].."", "", "11.36%"};
 		{ 18, 54932, "", "=q4=Mantle of Prophecy (Shadow)", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.06%"};
 		{ 19, 54933, "", "=q4=Robes of Prophecy (Shadow)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.65%"};
@@ -6215,54 +6199,31 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 54936, "", "=q4=Girdle of Prophecy (Shadow)", "=ds="..AL["Trash Mobs"].."", "", "0.18%"};
 		{ 23, 54937, "", "=q4=Pants of Prophecy (Shadow)", "=ds="..BabbleBoss["Magmadar"].."", "", "14.33%"};
 		{ 24, 54938, "", "=q4=Boots of Prophecy (Shadow)", "=ds="..BabbleBoss["Shazzrah"].."", "", "14.90%"};
-		Back="T1SET";
+		Back="T1Priest";
 	};
-	
-	AtlasLoot_Data["T1DeathKnight"]= {
-		{ 1, 0, "INV_Shield_05", "=q6=#t1s9#", "=ec1=#m30#"};
-		{ 2, 16866, "", "=q4=Helm of Might", "=ds="..BabbleBoss["Garr"].."", "", "11.39%"};
-		{ 3, 16868, "", "=q4=Pauldrons of Might", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.14%"};
-		{ 4, 16865, "", "=q4=Breastplate of Might", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.28%"};
-		{ 5, 16861, "", "=q4=Bracers of Might", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 6, 16863, "", "=q4=Gauntlets of Might", "=ds="..BabbleBoss["Lucifron"].."", "", "16.40%"};
-		{ 7, 16864, "", "=q4=Belt of Might", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 8, 16867, "", "=q4=Legplates of Might", "=ds="..BabbleBoss["Magmadar"].."", "", "13.97%"};
-		{ 9, 16862, "", "=q4=Sabatons of Might", "=ds="..BabbleBoss["Gehennas"].."", "", "14.48%"};
-		{ 16, 0, "INV_Shield_05", "=q6=#t1s9#", "=ec1=#m30#"};
-		{ 17, 54883, "", "=q4=Helm of Might (DPS)", "=ds="..BabbleBoss["Garr"].."", "", "11.39%"};
-		{ 18, 54884, "", "=q4=Pauldrons of Might (DPS)", "=ds="..BabbleBoss["Sulfuron Harbinger"].."", "", "21.14%"};
-		{ 19, 54885, "", "=q4=Breastplate of Might (DPS)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.28%"};
-		{ 20, 54886, "", "=q4=Bracers of Might (DPS)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 21, 54887, "", "=q4=Gauntlets of Might (DPS)", "=ds="..BabbleBoss["Lucifron"].."", "", "16.40%"};
-		{ 22, 54888, "", "=q4=Belt of Might (DPS)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 23, 54889, "", "=q4=Legplates of Might (DPS)", "=ds="..BabbleBoss["Magmadar"].."", "", "13.97%"};
-		{ 24, 54890, "", "=q4=Sabatons of Might (DPS)", "=ds="..BabbleBoss["Gehennas"].."", "", "14.48%"};
-		Back="T1SET";
+	AtlasLoot_Data["T1ShamanRestoration"]= {
+		{ 1, 16842, "", "=q4=Earthfury Helmet", "=ds="..BabbleBoss["Garr"].."", "", "3.91%"};
+		{ 2, 16844, "", "=q4=Earthfury Epaulets", "=ds="..BabbleBoss["Baron Geddon"].."", "", "7.29%"};
+		{ 3, 16841, "", "=q4=Earthfury Vestments", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "6.08%"};
+		{ 4, 16840, "", "=q4=Earthfury Bracers", "=ds="..AL["Trash Mobs"].."", "", "0.06%"};
+		{ 5, 16839, "", "=q4=Earthfury Gauntlets", "=ds="..BabbleBoss["Gehennas"].."", "", "7.38%"};
+		{ 6, 16838, "", "=q4=Earthfury Belt", "=ds="..AL["Trash Mobs"].."", "", "0.07%"};
+		{ 7, 16843, "", "=q4=Earthfury Legguards", "=ds="..BabbleBoss["Magmadar"].."", "", "4.73%"};
+		{ 8, 16837, "", "=q4=Earthfury Boots", "=ds="..BabbleBoss["Lucifron"].."", "", "4.16%"};
+		Back="T1Shaman";
 	};
-	
-	AtlasLoot_Data["T1Shaman"]= {
-		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t1s7#", "=ec1=#m30#"};
-		{ 2, 16842, "", "=q4=Earthfury Helmet", "=ds="..BabbleBoss["Garr"].."", "", "3.91%"};
-		{ 3, 16844, "", "=q4=Earthfury Epaulets", "=ds="..BabbleBoss["Baron Geddon"].."", "", "7.29%"};
-		{ 4, 16841, "", "=q4=Earthfury Vestments", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "6.08%"};
-		{ 5, 16840, "", "=q4=Earthfury Bracers", "=ds="..AL["Trash Mobs"].."", "", "0.06%"};
-		{ 6, 16839, "", "=q4=Earthfury Gauntlets", "=ds="..BabbleBoss["Gehennas"].."", "", "7.38%"};
-		{ 7, 16838, "", "=q4=Earthfury Belt", "=ds="..AL["Trash Mobs"].."", "", "0.07%"};
-		{ 8, 16843, "", "=q4=Earthfury Legguards", "=ds="..BabbleBoss["Magmadar"].."", "", "4.73%"};
-		{ 9, 16837, "", "=q4=Earthfury Boots", "=ds="..BabbleBoss["Lucifron"].."", "", "4.16%"};
-		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t1s7#", "=ec1=#m30#"};
-		{ 17, 54891, "", "=q4=Earthfury Helmet (Elemental)", "=ds="..BabbleBoss["Garr"].."", "", "3.91%"};
-		{ 18, 54892, "", "=q4=Earthfury Epaulets (Elemental)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "7.29%"};
-		{ 19, 54893, "", "=q4=Earthfury Vestments (Elemental)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "6.08%"};
-		{ 20, 54894, "", "=q4=Earthfury Bracers (Elemental)", "=ds="..AL["Trash Mobs"].."", "", "0.06%"};
-		{ 21, 54895, "", "=q4=Earthfury Gauntlets (Elemental)", "=ds="..BabbleBoss["Gehennas"].."", "", "7.38%"};
-		{ 22, 54896, "", "=q4=Earthfury Belt (Elemental)", "=ds="..AL["Trash Mobs"].."", "", "0.07%"};
-		{ 23, 54897, "", "=q4=Earthfury Legguards (Elemental)", "=ds="..BabbleBoss["Magmadar"].."", "", "4.73%"};
-		{ 24, 54898, "", "=q4=Earthfury Boots (Elemental)", "=ds="..BabbleBoss["Lucifron"].."", "", "4.16%"};
-		Next= "T1Shaman2";
-		Back="T1SET";
+	AtlasLoot_Data["T1ShamanElemental"]= {
+		{ 1, 54891, "", "=q4=Earthfury Helmet (Elemental)", "=ds="..BabbleBoss["Garr"].."", "", "3.91%"};
+		{ 2, 54892, "", "=q4=Earthfury Epaulets (Elemental)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "7.29%"};
+		{ 3, 54893, "", "=q4=Earthfury Vestments (Elemental)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "6.08%"};
+		{ 4, 54894, "", "=q4=Earthfury Bracers (Elemental)", "=ds="..AL["Trash Mobs"].."", "", "0.06%"};
+		{ 5, 54895, "", "=q4=Earthfury Gauntlets (Elemental)", "=ds="..BabbleBoss["Gehennas"].."", "", "7.38%"};
+		{ 6, 54896, "", "=q4=Earthfury Belt (Elemental)", "=ds="..AL["Trash Mobs"].."", "", "0.07%"};
+		{ 7, 54897, "", "=q4=Earthfury Legguards (Elemental)", "=ds="..BabbleBoss["Magmadar"].."", "", "4.73%"};
+		{ 8, 54898, "", "=q4=Earthfury Boots (Elemental)", "=ds="..BabbleBoss["Lucifron"].."", "", "4.16%"};
+		Back="T1Shaman";
 	};
-	AtlasLoot_Data["T1Shaman2"]= {
+	AtlasLoot_Data["T1ShamanEnhancement"]= {
 		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t1s7#", "=ec1=#m30#"};
 		{ 2, 54899, "", "=q4=Earthfury Helmet (Enhancement)", "=ds="..BabbleBoss["Garr"].."", "", "3.91%"};
 		{ 3, 54900, "", "=q4=Earthfury Epaulets (Enhancement)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "7.29%"};
@@ -6272,10 +6233,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 54904, "", "=q4=Earthfury Belt (Enhancement)", "=ds="..AL["Trash Mobs"].."", "", "0.07%"};
 		{ 8, 54905, "", "=q4=Earthfury Legguards (Enhancement)", "=ds="..BabbleBoss["Magmadar"].."", "", "4.73%"};
 		{ 9, 54906, "", "=q4=Earthfury Boots (Enhancement)", "=ds="..BabbleBoss["Lucifron"].."", "", "4.16%"};
-		Previous= "T1Shaman";
-		Back="T1SET";
+		Back= "T1Shaman";
 	};
-	
 	AtlasLoot_Data["T1Mage"]= {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t1s3#", "=ec1=#m30#"};
 		{ 2, 16795, "", "=q4=Arcanist Crown", "=ds="..BabbleBoss["Garr"].."", "", "11.31%"};
@@ -6288,7 +6247,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 16800, "", "=q4=Arcanist Boots", "=ds="..BabbleBoss["Lucifron"].."", "", "12.06%"};
 		Back="T1SET";
 	};
-	
 	AtlasLoot_Data["T1Warlock"]= {
 		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t1s8#", "=ec1=#m30#"};
 		{ 2, 16808, "", "=q4=Felheart Horns", "=ds="..BabbleBoss["Garr"].."", "", "10.62%"};
@@ -6314,87 +6272,120 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 57723, "", "=q4=Scarlet Boots", "=ds="..BabbleBoss["Shazzrah"].."", "", "14.90%"};
 		Back="T1SET";
 	};
-	
 	AtlasLoot_Data["T1Druid"]= {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t1s1#", "=ec1=#m30#"};
-		{ 2, 54875, "", "=q4=Cenarion Helm (Restoration)", "=ds="..BabbleBoss["Garr"].."", "", "11.51%"};
-		{ 3, 54876, "", "=q4=Cenarion Spaulders (Restoration)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "19.52%"};
-		{ 4, 54877, "", "=q4=Cenarion Vestments (Restoration)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.21%"};
-		{ 5, 54878, "", "=q4=Cenarion Bracers (Restoration)", "=ds="..AL["Trash Mobs"].."", "", "0.17%"};
-		{ 6, 54879, "", "=q4=Cenarion Gloves (Restoration)", "=ds="..BabbleBoss["Shazzrah"].."", "", "19.53%"};
-		{ 7, 54880, "", "=q4=Cenarion Belt (Restoration)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 8, 54881, "", "=q4=Cenarion Leggings (Restoration)", "=ds="..BabbleBoss["Magmadar"].."", "", "12.90%"};
-		{ 9, 54882, "", "=q4=Cenarion Boots (Restoration)", "=ds="..BabbleBoss["Lucifron"].."", "", "10.72%"};
-		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t1s1#", "=ec1=#m30#"};
-		{ 17, 54867, "", "=q4=Cenarion Helm (Balance)", "=ds="..BabbleBoss["Garr"].."", "", "11.51%"};
-		{ 18, 54868, "", "=q4=Cenarion Spaulders (Balance)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "19.52%"};
-		{ 19, 54869, "", "=q4=Cenarion Vestments (Balance)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.21%"};
-		{ 20, 54870, "", "=q4=Cenarion Bracers (Balance)", "=ds="..AL["Trash Mobs"].."", "", "0.17%"};
-		{ 21, 54871, "", "=q4=Cenarion Gloves (Balance)", "=ds="..BabbleBoss["Shazzrah"].."", "", "19.53%"};
-		{ 22, 54872, "", "=q4=Cenarion Belt (Balance)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 23, 54873, "", "=q4=Cenarion Leggings (Balance)", "=ds="..BabbleBoss["Magmadar"].."", "", "12.90%"};
-		{ 24, 54874, "", "=q4=Cenarion Boots (Balance)", "=ds="..BabbleBoss["Lucifron"].."", "", "10.72%"};
-		Next= "T1Druid2";
-		Back="T1SET";
+		{ 1, 54875, "", "=q4=Cenarion Helm (Restoration)", "=ds="..BabbleBoss["Garr"].."", "", "11.51%"};
+		{ 2, 54876, "", "=q4=Cenarion Spaulders (Restoration)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "19.52%"};
+		{ 3, 54877, "", "=q4=Cenarion Vestments (Restoration)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.21%"};
+		{ 4, 54878, "", "=q4=Cenarion Bracers (Restoration)", "=ds="..AL["Trash Mobs"].."", "", "0.17%"};
+		{ 5, 54879, "", "=q4=Cenarion Gloves (Restoration)", "=ds="..BabbleBoss["Shazzrah"].."", "", "19.53%"};
+		{ 6, 54880, "", "=q4=Cenarion Belt (Restoration)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
+		{ 7, 54881, "", "=q4=Cenarion Leggings (Restoration)", "=ds="..BabbleBoss["Magmadar"].."", "", "12.90%"};
+		{ 8, 54882, "", "=q4=Cenarion Boots (Restoration)", "=ds="..BabbleBoss["Lucifron"].."", "", "10.72%"};
+		Back="T1Druid";
+	};
+	AtlasLoot_Data["T1Druid"]= {
+		{ 1, 54867, "", "=q4=Cenarion Helm (Balance)", "=ds="..BabbleBoss["Garr"].."", "", "11.51%"};
+		{ 2, 54868, "", "=q4=Cenarion Spaulders (Balance)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "19.52%"};
+		{ 3, 54869, "", "=q4=Cenarion Vestments (Balance)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.21%"};
+		{ 4, 54870, "", "=q4=Cenarion Bracers (Balance)", "=ds="..AL["Trash Mobs"].."", "", "0.17%"};
+		{ 5, 54871, "", "=q4=Cenarion Gloves (Balance)", "=ds="..BabbleBoss["Shazzrah"].."", "", "19.53%"};
+		{ 6, 54872, "", "=q4=Cenarion Belt (Balance)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
+		{ 7, 54873, "", "=q4=Cenarion Leggings (Balance)", "=ds="..BabbleBoss["Magmadar"].."", "", "12.90%"};
+		{ 8, 54874, "", "=q4=Cenarion Boots (Balance)", "=ds="..BabbleBoss["Lucifron"].."", "", "10.72%"};
+		Back="T1Druid";
 	};
 	AtlasLoot_Data["T1Druid2"]= {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t1s1#", "=ec1=#m30#"};
-		{ 2, 54858, "", "=q4=Cenarion Helm (Feral)", "=ds="..BabbleBoss["Garr"].."", "", "11.51%"};
-		{ 3, 54859, "", "=q4=Cenarion Spaulders (Feral)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "19.52%"};
-		{ 4, 54861, "", "=q4=Cenarion Vestments (Feral)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.21%"};
-		{ 5, 54862, "", "=q4=Cenarion Bracers (Feral)", "=ds="..AL["Trash Mobs"].."", "", "0.17%"};
-		{ 6, 54863, "", "=q4=Cenarion Gloves (Feral)", "=ds="..BabbleBoss["Shazzrah"].."", "", "19.53%"};
-		{ 7, 54864, "", "=q4=Cenarion Belt (Feral)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
-		{ 8, 54865, "", "=q4=Cenarion Leggings (Feral)", "=ds="..BabbleBoss["Magmadar"].."", "", "12.90%"};
-		{ 9, 54866, "", "=q4=Cenarion Boots (Feral)", "=ds="..BabbleBoss["Lucifron"].."", "", "10.72%"};
-		Previous= "T1Druid";
-		Back="T1SET";
+		{ 1, 54858, "", "=q4=Cenarion Helm (Feral)", "=ds="..BabbleBoss["Garr"].."", "", "11.51%"};
+		{ 2, 54859, "", "=q4=Cenarion Spaulders (Feral)", "=ds="..BabbleBoss["Baron Geddon"].."", "", "19.52%"};
+		{ 3, 54861, "", "=q4=Cenarion Vestments (Feral)", "=ds="..BabbleBoss["Golemagg the Incinerator"].."", "", "15.21%"};
+		{ 4, 54862, "", "=q4=Cenarion Bracers (Feral)", "=ds="..AL["Trash Mobs"].."", "", "0.17%"};
+		{ 5, 54863, "", "=q4=Cenarion Gloves (Feral)", "=ds="..BabbleBoss["Shazzrah"].."", "", "19.53%"};
+		{ 6, 54864, "", "=q4=Cenarion Belt (Feral)", "=ds="..AL["Trash Mobs"].."", "", "0.16%"};
+		{ 7, 54865, "", "=q4=Cenarion Leggings (Feral)", "=ds="..BabbleBoss["Magmadar"].."", "", "12.90%"};
+		{ 8, 54866, "", "=q4=Cenarion Boots (Feral)", "=ds="..BabbleBoss["Lucifron"].."", "", "10.72%"};
+		Back="T1Druid";
 	};
 
 	AtlasLoot_Data["T1Bard"] = {
 		Back="T1SET"
-	}
+	};
+
+	AtlasLoot_Data["T1Druid"] = {
+		{ 1, "T1DruidFeral", "Spell_Nature_Unyeildingstamina", "=ds=Feral", "=q5=T1" },
+		{ 2, "T1DruidRestoration", "Spell_Nature_Rejuvenation", "=ds=Restoration", "=q5=T1" },
+		{ 3, "T1DruidBalance", "Spell_Arcane_Arcane03", "=ds=Balance", "=q5=T1" },
+		Back = "T1Sets",
+	};
+	
+	AtlasLoot_Data["T1Priest"] = {
+		{ 1, "T1PriestHeal", "spell_holy_heal", "=ds=Heal", "=q5=T1" },
+		{ 2, "T1PriestShadow", "spell_shadow_summonvoidwalker", "=ds=Shadow", "=q5=T1" },
+		Back = "T1Sets",
+	};
+	
+	AtlasLoot_Data["T1Paladin"] = {
+		{ 1, "T1PaladinProtection", "spell_holy_avengersshield", "=ds=Protection", "=q5=T1" },
+		{ 2, "T1PaladinHoly", "spell_holy_searinglight", "=ds=Holy", "=q5=T1" },
+		{ 3, "T1PaladinRetribution", "ability_paladin_divinestorm", "=ds=Retribution", "=q5=T1" },
+		Back = "T1Sets",
+	};
+	
+	AtlasLoot_Data["T1Shaman"] = {
+		{ 1, "T1ShamanTank", "spell_nature_lightningshield", "=ds=Tank", "=q5=T1" },
+		{ 2, "T1ShamanRestoration", "spell_nature_riptide", "=ds=Restoration", "=q5=T1" },
+		{ 3, "T1ShamanEnhancement", "ability_shaman_stormstrike", "=ds=Enhancement", "=q5=T1" },
+		{ 4, "T1ShamanElemental", "spell_nature_lightning", "=ds=Elemental", "=q5=T1" },
+		Back = "T1Sets",
+	};
+	
+	AtlasLoot_Data["T1Warrior"] = {
+		{ 1, "T1WarriorProtection", "inv_shield_06", "=ds=Protection", "=q5=T1" },
+		{ 2, "T1WarriorDamage", "ability_parry", "=ds=Damage", "=q5=T1" },
+		Back = "T1Sets",
+	};
+	
+	AtlasLoot_Data["T1Dk"] = {
+		{ 1, "T1DkTank", "spell_deathknight_butcher2", "=ds=Tank", "=q5=T1" },
+		{ 2, "T1DkDamage", "spell_shadow_plaguecloud", "=ds=Damage", "=q5=T1" },
+		Back = "T1Sets",
+	};
 		------------------------
 		--- Tier 2 Sets (T2) ---
 		------------------------
 
-	AtlasLoot_Data["T2Druid"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t2s1#", "=ec1=#m31#"};
-		{ 2, 16900, "", "=q4=Stormrage Cover", "=ds="..BabbleBoss["Onyxia"], "", "13.08%"};
-		{ 3, 16902, "", "=q4=Stormrage Pauldrons", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
-		{ 4, 16897, "", "=q4=Stormrage Chestguard", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
-		{ 5, 16904, "", "=q4=Stormrage Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
-		{ 6, 16899, "", "=q4=Stormrage Handguards", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
-		{ 7, 16903, "", "=q4=Stormrage Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
-		{ 8, 16901, "", "=q4=Stormrage Legguards", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 9, 16898, "", "=q4=Stormrage Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
-		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t2s1#", "=ec1=#m31#"};
-		{ 17, 56899, "", "=q4=Stormrage Cover (Balance)", "=ds=", "", ""};
-		{ 18, 56898, "", "=q4=Stormrage Pauldrons (Balance)", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
-		{ 19, 56897, "", "=q4=Stormrage Chestguard (Balance)", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
-		{ 20, 56896, "", "=q4=Stormrage Bracers (Balance)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
-		{ 21, 56895, "", "=q4=Stormrage Handguards (Balance)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
-		{ 22, 56894, "", "=q4=Stormrage Belt (Balance)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
-		{ 23, 56893, "", "=q4=Stormrage Legguards (Balance)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 24, 56892, "", "=q4=Stormrage Boots (Balance)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
-		Next= "T2Druid2";
-		Back="T2SET";
+	AtlasLoot_Data["T2DruidRestoration"] = {
+		{ 1, 16900, "", "=q4=Stormrage Cover", "=ds="..BabbleBoss["Onyxia"], "", "13.08%"};
+		{ 2, 16902, "", "=q4=Stormrage Pauldrons", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
+		{ 3, 16897, "", "=q4=Stormrage Chestguard", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
+		{ 4, 16904, "", "=q4=Stormrage Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
+		{ 5, 16899, "", "=q4=Stormrage Handguards", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
+		{ 6, 16903, "", "=q4=Stormrage Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
+		{ 7, 16901, "", "=q4=Stormrage Legguards", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 16898, "", "=q4=Stormrage Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
+		Back="T2Druid";
 	};
-	
-	AtlasLoot_Data["T2Druid2"] = {
-		{ 1, 0, "Spell_Nature_Regeneration", "=q6=#t2s1#", "=ec1=#m31#"};
-		{ 2, 56884, "", "=q4=Stormrage Cover (Feral)", "", "", ""};
-		{ 3, 56885, "", "=q4=Stormrage Pauldrons (Feral)", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
-		{ 4, 56886, "", "=q4=Stormrage Chestguard (Feral)", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
-		{ 5, 56887, "", "=q4=Stormrage Bracers (Feral)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
-		{ 6, 56888, "", "=q4=Stormrage Handguards (Feral)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
-		{ 7, 56889, "", "=q4=Stormrage Belt (Feral)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
-		{ 8, 56890, "", "=q4=Stormrage Legguards (Feral)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 9, 56891, "", "=q4=Stormrage Boots (Feral)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
-		Previous= "T2Druid";
-		Back="T2SET";
+	AtlasLoot_Data["T2DruidBalance"] = {
+		{ 1, 56899, "", "=q4=Stormrage Cover (Balance)", "=ds=", "", ""};
+		{ 2, 56898, "", "=q4=Stormrage Pauldrons (Balance)", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
+		{ 3, 56897, "", "=q4=Stormrage Chestguard (Balance)", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
+		{ 4, 56896, "", "=q4=Stormrage Bracers (Balance)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
+		{ 5, 56895, "", "=q4=Stormrage Handguards (Balance)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
+		{ 6, 56894, "", "=q4=Stormrage Belt (Balance)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
+		{ 7, 56893, "", "=q4=Stormrage Legguards (Balance)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56892, "", "=q4=Stormrage Boots (Balance)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
+		Back="T2Druid";
 	};
-
+	AtlasLoot_Data["T2DruidFeral"] = {
+		{ 1, 56884, "", "=q4=Stormrage Cover (Feral)", "", "", ""};
+		{ 2, 56885, "", "=q4=Stormrage Pauldrons (Feral)", "=ds="..BabbleBoss["Chromaggus"], "", "14.63%"};
+		{ 3, 56886, "", "=q4=Stormrage Chestguard (Feral)", "=ds="..BabbleBoss["Nefarian"], "", "11.89%"};
+		{ 4, 56887, "", "=q4=Stormrage Bracers (Feral)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "17.38%"};
+		{ 5, 56888, "", "=q4=Stormrage Handguards (Feral)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.34%"};
+		{ 6, 56889, "", "=q4=Stormrage Belt (Feral)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "16.90%"};
+		{ 7, 56890, "", "=q4=Stormrage Legguards (Feral)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56891, "", "=q4=Stormrage Boots (Feral)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "13.79%"};
+		Back="T2Druid";
+	};
 	AtlasLoot_Data["T2Hunter"] = {
 		{ 1, 0, "Ability_Hunter_RunningShot", "=q6=#t2s2#", "=ec1=#m31#"};
 		{ 2, 16939, "", "=q4=Dragonstalker's Helm", "=ds="..BabbleBoss["Onyxia"], "", "13.91%"};
@@ -6407,7 +6398,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 16941, "", "=q4=Dragonstalker's Greaves", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.78%"};
 		Back="T2SET";
 	};
-
 	AtlasLoot_Data["T2Mage"] = {
 		{ 1, 0, "Spell_Frost_IceStorm", "=q6=#t2s3#", "=ec1=#m31#"};
 		{ 2, 16914, "", "=q4=Netherwind Crown", "=ds="..BabbleBoss["Onyxia"], "", "14.09%"};
@@ -6420,31 +6410,29 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 16912, "", "=q4=Netherwind Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "17.17%"};
 		Back="T2SET";
 	};
-
-	AtlasLoot_Data["T2Paladin"] = {
-		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t2s4#", "=ec1=#m31#"};
-		{ 2, 16955, "", "=q4=Judgement Crown", "=ds="..BabbleBoss["Onyxia"], "", "8.64%"};
-		{ 3, 16953, "", "=q4=Judgement Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
-		{ 4, 16958, "", "=q4=Judgement Breastplate", "=ds="..BabbleBoss["Nefarian"], "", "9.24%"};
-		{ 5, 16951, "", "=q4=Judgement Bindings", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "13.61%"};
-		{ 6, 16956, "", "=q4=Judgement Gauntlets", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "3.58%"};
-		{ 7, 16952, "", "=q4=Judgement Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
-		{ 8, 16954, "", "=q4=Judgement Legplates", "=ds="..BabbleBoss["Ragnaros"], "", "10.81%"};
-		{ 9, 16957, "", "=q4=Judgement Sabatons", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
-		{ 16, 0, "Spell_Holy_SealOfMight", "=q6=#t2s4#", "=ec1=#m31#"};
-		{ 17, 56924, "", "=q4=Judgement Crown (Protection)", "=ds=", "", ""};
-		{ 18, 56925, "", "=q4=Judgement Spaulders (Protection)", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
-		{ 19, 56926, "", "=q4=Judgement Breastplate (Protection)", "=ds="..BabbleBoss["Nefarian"], "", "9.24%"};
-		{ 20, 56927, "", "=q4=Judgement Bindings (Protection)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "13.61%"};
-		{ 21, 56928, "", "=q4=Judgement Gauntlets (Protection)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "3.58%"};
-		{ 22, 56929, "", "=q4=Judgement Belt (Protection)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
-		{ 23, 56930, "", "=q4=Judgement Legplates (Protection)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 24, 56931, "", "=q4=Judgement Sabatons (Protection)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
-		Next= "T2Paladin2";
-		Back="T2SET";
+	AtlasLoot_Data["T2PaladinHoly"] = {
+		{ 1, 16955, "", "=q4=Judgement Crown", "=ds="..BabbleBoss["Onyxia"], "", "8.64%"};
+		{ 2, 16953, "", "=q4=Judgement Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
+		{ 3, 16958, "", "=q4=Judgement Breastplate", "=ds="..BabbleBoss["Nefarian"], "", "9.24%"};
+		{ 4, 16951, "", "=q4=Judgement Bindings", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "13.61%"};
+		{ 5, 16956, "", "=q4=Judgement Gauntlets", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "3.58%"};
+		{ 6, 16952, "", "=q4=Judgement Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
+		{ 7, 16954, "", "=q4=Judgement Legplates", "=ds="..BabbleBoss["Ragnaros"], "", "10.81%"};
+		{ 8, 16957, "", "=q4=Judgement Sabatons", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
+		Back="T2Paladin";
 	};
-	
-	AtlasLoot_Data["T2Paladin2"] = {
+	AtlasLoot_Data["T2PaladinProtection"] = {
+		{ 1, 56924, "", "=q4=Judgement Crown (Protection)", "=ds=", "", ""};
+		{ 2, 56925, "", "=q4=Judgement Spaulders (Protection)", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
+		{ 3, 56926, "", "=q4=Judgement Breastplate (Protection)", "=ds="..BabbleBoss["Nefarian"], "", "9.24%"};
+		{ 4, 56927, "", "=q4=Judgement Bindings (Protection)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "13.61%"};
+		{ 5, 56928, "", "=q4=Judgement Gauntlets (Protection)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "3.58%"};
+		{ 6, 56929, "", "=q4=Judgement Belt (Protection)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
+		{ 7, 56930, "", "=q4=Judgement Legplates (Protection)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56931, "", "=q4=Judgement Sabatons (Protection)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
+		Back="T2Paladin";
+	};
+	AtlasLoot_Data["T2PaladinRetribution"] = {
 		{ 1, 0, "Spell_Holy_SealOfMight", "=q6=#t2s4#", "=ec1=#m31#"};
 		{ 2, 56916, "", "=q4=Judgement Crown (Retribution)", "=ds=", "", ""};
 		{ 3, 56917, "", "=q4=Judgement Spaulders (Retribution)", "=ds="..BabbleBoss["Chromaggus"], "", "10.97%"};
@@ -6454,32 +6442,30 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 56921, "", "=q4=Judgement Belt (Retribution)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "12.23%"};
 		{ 8, 56922, "", "=q4=Judgement Legplates (Retribution)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
 		{ 9, 56923, "", "=q4=Judgement Sabatons (Retribution)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "11.28%"};
-		Previous= "T2Paladin";
-		Back="T2SET";
+		Back="T2Paladin";
 	};
-
-	AtlasLoot_Data["T2Priest"] = {
+	AtlasLoot_Data["T2PriestShadow"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t2s5#", "=ec1=#m31#"};
-		{ 2, 16921, "", "=q4=Halo of Transcendence", "=ds="..BabbleBoss["Onyxia"], "", "13.39%"};
-		{ 3, 16924, "", "=q4=Pauldrons of Transcendence", "=ds="..BabbleBoss["Chromaggus"], "", "17.83%"};
-		{ 4, 16923, "", "=q4=Robes of Transcendence", "=ds="..BabbleBoss["Nefarian"], "", "14.83%"};
-		{ 5, 16926, "", "=q4=Bindings of Transcendence", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.37%"};
-		{ 6, 16920, "", "=q4=Handguards of Transcendence", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.01%"};
-		{ 7, 16925, "", "=q4=Belt of Transcendence", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
-		{ 8, 16922, "", "=q4=Leggings of Transcendence", "=ds="..BabbleBoss["Ragnaros"], "", "17.30%"};
-		{ 9, 16919, "", "=q4=Boots of Transcendence", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
-		{ 16, 0, "Spell_Holy_PowerWordShield", "=q6=#t2s5#", "=ec1=#m31#"};
-		{ 17, 56908, "", "=q4=Halo of Transcendence (DPS)", "=ds=", "", ""};
-		{ 18, 56909, "", "=q4=Pauldrons of Transcendence (DPS)", "=ds="..BabbleBoss["Chromaggus"], "", "17.83%"};
-		{ 19, 56910, "", "=q4=Robes of Transcendence (DPS)", "=ds="..BabbleBoss["Nefarian"], "", "14.83%"};
-		{ 20, 56911, "", "=q4=Bindings of Transcendence (DPS)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.37%"};
-		{ 21, 56912, "", "=q4=Handguards of Transcendence (DPS)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.01%"};
-		{ 22, 56913, "", "=q4=Belt of Transcendence (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
-		{ 23, 56914, "", "=q4=Leggings of Transcendence (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 24, 56915, "", "=q4=Boots of Transcendence (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
+		{ 2, 56908, "", "=q4=Halo of Transcendence (DPS)", "=ds=", "", ""};
+		{ 3, 56909, "", "=q4=Pauldrons of Transcendence (DPS)", "=ds="..BabbleBoss["Chromaggus"], "", "17.83%"};
+		{ 4, 56910, "", "=q4=Robes of Transcendence (DPS)", "=ds="..BabbleBoss["Nefarian"], "", "14.83%"};
+		{ 5, 56911, "", "=q4=Bindings of Transcendence (DPS)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.37%"};
+		{ 6, 56912, "", "=q4=Handguards of Transcendence (DPS)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.01%"};
+		{ 7, 56913, "", "=q4=Belt of Transcendence (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
+		{ 8, 56914, "", "=q4=Leggings of Transcendence (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 9, 56915, "", "=q4=Boots of Transcendence (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
 		Back="T2SET";
 	};
-	
+	AtlasLoot_Data["T2PriestHeal"]={
+		{ 1, 16921, "", "=q4=Halo of Transcendence", "=ds="..BabbleBoss["Onyxia"], "", "13.39%"};
+		{ 2, 16924, "", "=q4=Pauldrons of Transcendence", "=ds="..BabbleBoss["Chromaggus"], "", "17.83%"};
+		{ 3, 16923, "", "=q4=Robes of Transcendence", "=ds="..BabbleBoss["Nefarian"], "", "14.83%"};
+		{ 4, 16926, "", "=q4=Bindings of Transcendence", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.37%"};
+		{ 5, 16920, "", "=q4=Handguards of Transcendence", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "6.01%"};
+		{ 6, 16925, "", "=q4=Belt of Transcendence", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.76%"};
+		{ 7, 16922, "", "=q4=Leggings of Transcendence", "=ds="..BabbleBoss["Ragnaros"], "", "17.30%"};
+		{ 8, 16919, "", "=q4=Boots of Transcendence", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
+	};
 	AtlasLoot_Data["T2Monk"] = {
 		{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#t2s5#", "=ec1=#m31#"};
 		{ 2, 56908, "", "=q4=Halo of Transcendence (DPS)", "=ds=", "", ""};
@@ -6492,7 +6478,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 56915, "", "=q4=Boots of Transcendence (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "14.61%"};
 		Back="T2SET";
 	};
-
 	AtlasLoot_Data["T2Rogue"] = {
 		{ 1, 0, "Ability_BackStab", "=q6=#t2s6#", "=ec1=#m31#"};
 		{ 2, 16908, "", "=q4=Bloodfang Hood", "=ds="..BabbleBoss["Onyxia"], "", "13.21%"};
@@ -6505,59 +6490,51 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 16906, "", "=q4=Bloodfang Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.66%"};
 		Back="T2SET";
 	};
-
-	AtlasLoot_Data["T2Shaman"] = {
-		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t2s7#", "=ec1=#m31#"};
-		{ 2, 16947, "", "=q4=Helmet of Ten Storms", "=ds="..BabbleBoss["Onyxia"], "", "4.86%"};
-		{ 3, 16945, "", "=q4=Epaulets of Ten Storms", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
-		{ 4, 16950, "", "=q4=Breastplate of Ten Storms", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
-		{ 5, 16943, "", "=q4=Bracers of Ten Storms", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
-		{ 6, 16948, "", "=q4=Gauntlets of Ten Storms", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
-		{ 7, 16944, "", "=q4=Belt of Ten Storms", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
-		{ 8, 16946, "", "=q4=Legplates of Ten Storms", "=ds="..BabbleBoss["Ragnaros"], "", "5.97%"};
-		{ 9, 16949, "", "=q4=Greaves of Ten Storms", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
-		{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#t2s7#", "=ec1=#m31#"};
-		{ 17, 56947, "", "=q4=Helmet of Ten Storms (Elemental)", "=ds=", "", ""};
-		{ 18, 56946, "", "=q4=Epaulets of Ten Storms (Elemental)", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
-		{ 19, 56945, "", "=q4=Breastplate of Ten Storms (Elemental)", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
-		{ 20, 56944, "", "=q4=Bracers of Ten Storms (Elemental)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
-		{ 21, 56943, "", "=q4=Gauntlets of Ten Storms (Elemental)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
-		{ 22, 56942, "", "=q4=Belt of Ten Storms (Elemental)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
-		{ 23, 56941, "", "=q4=Legplates of Ten Storms (Elemental)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 24, 56940, "", "=q4=Greaves of Ten Storms (Elemental)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
-		Next = "T2Shaman2";
-		Back="T2SET";
+	AtlasLoot_Data["T2ShamanElemental"] = {
+		{ 1, 56947, "", "=q4=Helmet of Ten Storms (Elemental)", "=ds=", "", ""};
+		{ 2, 56946, "", "=q4=Epaulets of Ten Storms (Elemental)", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
+		{ 3, 56945, "", "=q4=Breastplate of Ten Storms (Elemental)", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
+		{ 4, 56944, "", "=q4=Bracers of Ten Storms (Elemental)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
+		{ 5, 56943, "", "=q4=Gauntlets of Ten Storms (Elemental)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
+		{ 6, 56942, "", "=q4=Belt of Ten Storms (Elemental)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
+		{ 7, 56941, "", "=q4=Legplates of Ten Storms (Elemental)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56940, "", "=q4=Greaves of Ten Storms (Elemental)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
+		Back="T2Shaman";
 	};
-	
-	AtlasLoot_Data["T2Shaman2"] = {
-		{ 1, 0, "Spell_FireResistanceTotem_01", "=q6=#t2s7#", "=ec1=#m31#"};
-		{ 2, 56932, "", "=q4=Helmet of Ten Storms (Enhancement)", "=ds=", "", ""};
-		{ 3, 56933, "", "=q4=Epaulets of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
-		{ 4, 56934, "", "=q4=Breastplate of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
-		{ 5, 56935, "", "=q4=Bracers of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
-		{ 6, 56936, "", "=q4=Gauntlets of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
-		{ 7, 56937, "", "=q4=Belt of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
-		{ 8, 56938, "", "=q4=Legplates of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 9, 56939, "", "=q4=Greaves of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
-		Prev = "T2Shaman";
-		Back="T2SET";
+	AtlasLoot_Data["T2ShamanRestoration"]={
+		{ 1, 16947, "", "=q4=Helmet of Ten Storms", "=ds="..BabbleBoss["Onyxia"], "", "4.86%"};
+		{ 2, 16945, "", "=q4=Epaulets of Ten Storms", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
+		{ 3, 16950, "", "=q4=Breastplate of Ten Storms", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
+		{ 4, 16943, "", "=q4=Bracers of Ten Storms", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
+		{ 5, 16948, "", "=q4=Gauntlets of Ten Storms", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
+		{ 6, 16944, "", "=q4=Belt of Ten Storms", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
+		{ 7, 16946, "", "=q4=Legplates of Ten Storms", "=ds="..BabbleBoss["Ragnaros"], "", "5.97%"};
+		{ 8, 16949, "", "=q4=Greaves of Ten Storms", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
+		Back="T2Shaman";
 	};
-
+	AtlasLoot_Data["T2ShamanEnhancement"] = {
+		{ 1, 56932, "", "=q4=Helmet of Ten Storms (Enhancement)", "=ds=", "", ""};
+		{ 2, 56933, "", "=q4=Epaulets of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Chromaggus"], "", "6.73%"};
+		{ 3, 56934, "", "=q4=Breastplate of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Nefarian"], "", "5.65%"};
+		{ 4, 56935, "", "=q4=Bracers of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "7.54%"};
+		{ 5, 56936, "", "=q4=Gauntlets of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "2.13%"};
+		{ 6, 56937, "", "=q4=Belt of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "6.93%"};
+		{ 7, 56938, "", "=q4=Legplates of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56939, "", "=q4=Greaves of Ten Storms (Enhancement)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "5.57%"};
+		Back="T2Shaman";
+	};
 	AtlasLoot_Data["T2Warlock"] = {
-
-		{ 1, 0, "Spell_Shadow_CurseOfTounges", "=q6=#t2s8#", "=ec1=#m31#"};
-		{ 2, 16929, "", "=q4=Nemesis Skullcap", "=ds="..BabbleBoss["Onyxia"], "", "13.54%"};
-		{ 3, 16932, "", "=q4=Nemesis Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "16.26%"};
-		{ 4, 16931, "", "=q4=Nemesis Robes", "=ds="..BabbleBoss["Nefarian"], "", "12.46%"};
-		{ 5, 16934, "", "=q4=Nemesis Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "18.11%"};
-		{ 6, 16928, "", "=q4=Nemesis Gloves", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.28%"};
-		{ 7, 16933, "", "=q4=Nemesis Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.42%"};
-		{ 8, 16930, "", "=q4=Nemesis Leggings", "=ds="..BabbleBoss["Ragnaros"], "", "16.87%"};
-		{ 9, 16927, "", "=q4=Nemesis Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.32%"};
+		{ 1, 16929, "", "=q4=Nemesis Skullcap", "=ds="..BabbleBoss["Onyxia"], "", "13.54%"};
+		{ 2, 16932, "", "=q4=Nemesis Spaulders", "=ds="..BabbleBoss["Chromaggus"], "", "16.26%"};
+		{ 3, 16931, "", "=q4=Nemesis Robes", "=ds="..BabbleBoss["Nefarian"], "", "12.46%"};
+		{ 4, 16934, "", "=q4=Nemesis Bracers", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "18.11%"};
+		{ 5, 16928, "", "=q4=Nemesis Gloves", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.28%"};
+		{ 6, 16933, "", "=q4=Nemesis Belt", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "18.42%"};
+		{ 7, 16930, "", "=q4=Nemesis Leggings", "=ds="..BabbleBoss["Ragnaros"], "", "16.87%"};
+		{ 8, 16927, "", "=q4=Nemesis Boots", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "15.32%"};
 		Back="T2SET";
 	};
-	
-	AtlasLoot_Data["T2Warrior"] = {
+	AtlasLoot_Data["T2WarriorTank"] = {
 		{ 1, 0, "INV_Shield_05", "=q6=#t2s9#", "=ec1=#m31#"};
 		{ 2, 16963, "", "=q4=Helm of Wrath", "=ds="..BabbleBoss["Onyxia"], "", "13.65%"};
 		{ 3, 16961, "", "=q4=Pauldrons of Wrath", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
@@ -6567,38 +6544,75 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 16960, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
 		{ 8, 16962, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
 		{ 9, 16965, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
-		{ 16, 0, "INV_Shield_05", "=q6=#t2s9#", "=ec1=#m31#"};
-		{ 17, 56900, "", "=q4=Helm of Wrath (DPS)", "=ds=", "", ""};
-		{ 18, 56901, "", "=q4=Pauldrons of Wrath (DPS)", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
-		{ 19, 56902, "", "=q4=Breastplate of Wrath (DPS)", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
-		{ 20, 56903, "", "=q4=Bracelets of Wrath (DPS)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
-		{ 21, 56904, "", "=q4=Gauntlets of Wrath (DPS)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
-		{ 22, 56905, "", "=q4=Waistband of Wrath (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
-		{ 23, 56906, "", "=q4=Legplates of Wrath (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 24, 56907, "", "=q4=Sabatons of Wrath (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
-		Back="T2SET";
+		Back="T2Warrior";
 	};
-	
-	AtlasLoot_Data["T2DK"]={
-		{ 1, 0, "INV_Shield_05", "=q6=#t2s9#", "=ec1=#m31#"};
-		{ 2, 57112, "", "=q4=Helm of Wrath", "", "", ""};
-		{ 3, 57113, "", "=q4=Pauldrons of Wrath", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
-		{ 4, 57114, "", "=q4=Breastplate of Wrath", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
-		{ 5, 16959, "", "=q4=Bracelets of Wrath", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
-		{ 6, 57115, "", "=q4=Gauntlets of Wrath", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
-		{ 7, 57116, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
-		{ 8, 57117, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
-		{ 9, 57118, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
-		{ 16, 0, "INV_Shield_05", "=q6=#t2s9#", "=ec1=#m31#"};
-		{ 17, 56900, "", "=q4=Helm of Wrath (DPS)", "=ds=", "", ""};
-		{ 18, 56901, "", "=q4=Pauldrons of Wrath (DPS)", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
-		{ 19, 56902, "", "=q4=Breastplate of Wrath (DPS)", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
-		{ 20, 56903, "", "=q4=Bracelets of Wrath (DPS)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
-		{ 21, 56904, "", "=q4=Gauntlets of Wrath (DPS)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
-		{ 22, 56905, "", "=q4=Waistband of Wrath (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
-		{ 23, 56906, "", "=q4=Legplates of Wrath (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
-		{ 24, 56907, "", "=q4=Sabatons of Wrath (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
-		Back="T2SET";
+	AtlasLoot_Data["T2WarriorDamage"]={
+		{ 1, 56900, "", "=q4=Helm of Wrath (DPS)", "=ds=", "", ""};
+		{ 2, 56901, "", "=q4=Pauldrons of Wrath (DPS)", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
+		{ 3, 56902, "", "=q4=Breastplate of Wrath (DPS)", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
+		{ 4, 56903, "", "=q4=Bracelets of Wrath (DPS)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
+		{ 5, 56904, "", "=q4=Gauntlets of Wrath (DPS)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
+		{ 6, 56905, "", "=q4=Waistband of Wrath (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
+		{ 7, 56906, "", "=q4=Legplates of Wrath (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56907, "", "=q4=Sabatons of Wrath (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
+		Back="T2Warrior";
+	};
+	AtlasLoot_Data["T2Druid"] = {
+		{ 1, "T2DruidFeral", "Spell_Nature_Unyeildingstamina", "=ds=Feral", "=q5=T2"};
+		{ 2, "T2DruidRestoration", "Spell_Nature_Rejuvenation", "=ds=Restoration", "=q5=T2"};
+		{ 3, "T2DruidMoonkin", "Spell_Arcane_Arcane03", "=ds=Balance", "=q5=T2"};
+		Back = "T2Sets";
+	};
+	AtlasLoot_Data["T2Priest"] = {
+		{ 1, "T2PriestHeal", "spell_holy_heal", "=ds=Heal", "=q5=T2"};
+		{ 2, "T2PriestShadow", "spell_shadow_summonvoidwalker", "=ds=Shadow", "=q5=T2"};
+		Back = "T2Sets";
+	};
+	AtlasLoot_Data["T2Paladin"] = {
+		{ 1, "T2PaladinProtection","spell_holy_avengersshield","=ds=Protection", "=q5=T2"};
+		{ 2, "T2PaladinHoly","spell_holy_searinglight","=ds=Holy", "=q5=T2"};
+		{ 3, "T2PaladinRetribution","ability_paladin_divinestorm","=ds=Retribution", "=q5=T2"};
+		Back = "T2Sets";
+	};
+	AtlasLoot_Data["T2Shaman"] = {
+		{ 1, "T2ShamanTank","spell_nature_lightningshield","=ds=Tank", "=q5=T2"};
+		{ 2, "T2ShamanRestoration","spell_nature_riptide","=ds=Restoration", "=q5=T2"};
+		{ 3, "T2ShamanEnhancement","ability_shaman_stormstrike","=ds=Enhancement", "=q5=T2"};
+		{ 4, "T2ShamanElemental","spell_nature_lightning","=ds=Elemental", "=q5=T2"};
+		Back = "T2Sets";
+	};
+	AtlasLoot_Data["T2Warrior"] = {
+		{ 1, "T2WarriorProtection","inv_shield_06","=ds=Protection", "=q5=T2"};
+		{ 2, "T2WarriorDamage","ability_parry","=ds=Damage", "=q5=T2"};
+		Back = "T2Sets";
+	};
+	AtlasLoot_Data["T2Dk"] = {
+		{ 1, "T2DkTank","spell_deathknight_butcher2","=ds=Tank", "=q5=T2"};
+		{ 2, "T2DkDamage","spell_shadow_plaguecloud","=ds=Damage", "=q5=T2"};
+		Back = "T2Sets";
+	};
+
+	AtlasLoot_Data["T2DkTank"]={
+		{ 1, 16963, "", "=q4=Helm of Wrath", "=ds="..BabbleBoss["Onyxia"], "", "13.65%"};
+		{ 2, 16961, "", "=q4=Pauldrons of Wrath", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
+		{ 3, 16966, "", "=q4=Breastplate of Wrath", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
+		{ 4, 16959, "", "=q4=Bracelets of Wrath", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
+		{ 5, 16964, "", "=q4=Gauntlets of Wrath", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
+		{ 6, 16960, "", "=q4=Waistband of Wrath", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
+		{ 7, 16962, "", "=q4=Legplates of Wrath", "=ds="..BabbleBoss["Ragnaros"], "", "17.23%"};
+		{ 8, 16965, "", "=q4=Sabatons of Wrath", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
+		Back="T2Dk"
+	};
+	AtlasLoot_Data["T2DkDamage"]={
+		{ 1, 56900, "", "=q4=Helm of Wrath (DPS)", "=ds=", "", ""};
+		{ 2, 56901, "", "=q4=Pauldrons of Wrath (DPS)", "=ds="..BabbleBoss["Chromaggus"], "", "16.83%"};
+		{ 3, 56902, "", "=q4=Breastplate of Wrath (DPS)", "=ds="..BabbleBoss["Nefarian"], "", "15.06%"};
+		{ 4, 56903, "", "=q4=Bracelets of Wrath (DPS)", "=ds="..BabbleBoss["Razorgore the Untamed"], "", "20.29%"};
+		{ 5, 56904, "", "=q4=Gauntlets of Wrath (DPS)", "=ds="..BabbleBoss["Firemaw"]..", "..BabbleBoss["Ebonroc"]..", "..BabbleBoss["Flamegor"], "", "5.93%"};
+		{ 6, 56905, "", "=q4=Waistband of Wrath (DPS)", "=ds="..BabbleBoss["Vaelastrasz the Corrupt"], "", "20.03%"};
+		{ 7, 56906, "", "=q4=Legplates of Wrath (DPS)", "=ds="..BabbleBoss["Ragnaros"], "", "15.49%"};
+		{ 8, 56907, "", "=q4=Sabatons of Wrath (DPS)", "=ds="..BabbleBoss["Broodlord Lashlayer"], "", "16.84%"};
+		Back="T2Dk"
 	};
 	AtlasLoot_Data["T2Bard"]={
 		Back="T2SET";
